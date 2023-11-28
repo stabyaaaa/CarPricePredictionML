@@ -2,7 +2,7 @@
 import pickle  # For loading the trained model and scaler
 import pandas as pd  # For data manipulation
 import numpy as np  # For numerical operations
-from flask import Flask, request, render_template  # For deployment
+from flask import Flask, request, render_template  # For deploymentt
 from sklearn.linear_model import Lasso
 from sklearn.linear_model import Ridge
 
