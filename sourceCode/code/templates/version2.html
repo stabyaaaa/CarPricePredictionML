@@ -1,0 +1,45 @@
+<!-- version2.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Version 2 Page</title>
+    <!-- Bootstrap CSS for styling -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+   
+   
+        <!-- Form for user input -->
+        <form method="POST" action="{{ url_for('second_prediction_page') }}">
+            <!-- Input for entering max power -->
+            <div class="form-group">
+                <label for="max_power">Max Power:</label>
+                <input type="text" id="max_power" name="max_power" class="form-control" required>
+            </div>
+            
+            <!-- Input for entering engine size -->
+            <div class="form-group">
+                <label for="engine">Engine Size:</label>
+                <input type="text" id="engine" name="engine" class="form-control" required>
+            </div>
+            
+            <!-- Submit button -->
+            <button type="submit" class="btn btn-primary">Predict</button>
+        </form>
+
+        <!-- Display predicted selling price if available -->
+        {% if second_selling_price_model %}
+        <div class="result">
+            <h2>Predicted Selling Price:</h2>
+            <!-- Display the predicted selling price -->
+            <p>{{ second_selling_price_model }}</p>
+        </div>
+        {% endif %}
+    </div>
+    
+    <div class="container">
+        <h2>Version 2 Page</h2>
+        <!-- Link to go back to the main page -->
+        <a href="{{ url_for('index') }}">Go back to Main Page</a></div>
+</body>
+</html>

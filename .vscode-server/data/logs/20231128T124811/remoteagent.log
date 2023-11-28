@@ -1,0 +1,13 @@
+2023-11-28 12:48:11.506 [info] 
+
+
+
+
+2023-11-28 12:48:11.506 [info] Installing extensions...
+2023-11-28 12:48:11.506 [info] Extension host agent started.
+2023-11-28 12:48:11.506 [info] Started initializing default profile extensions in extensions installation folder. file:///root/.vscode-server/extensions
+2023-11-28 12:48:11.509 [info] [127.0.0.1][c59a0bee][ManagementConnection] New connection established.
+2023-11-28 12:48:11.530 [info] Log level changed to info
+2023-11-28 12:48:11.838 [info] [127.0.0.1][fe28a4db][ExtensionHostConnection] New connection established.
+2023-11-28 12:48:11.884 [info] [127.0.0.1][fe28a4db][ExtensionHostConnection] <251> Launched Extension Host Process.
+2023-11-28 12:48:11.983 [info] Completed initializing default profile extensions in extensions installation folder. file:///root/.vscode-server/extensions

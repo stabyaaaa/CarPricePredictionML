@@ -1,0 +1,632 @@
+Visual Studio Code (1.84.2, attached-container, desktop)
+Jupyter Extension Version: 2023.10.1100000000.
+Python Extension not installed.
+Platform: linux (x64).
+Workspace folder /root, Home = /root
+12:48:27.574 [info] Start refreshing Kernel Picker (1701175707574)
+12:48:27.611 [info] Not using Pylance
+12:48:27.701 [info] End refreshing Kernel Picker (1701175707574)
+12:49:12.199 [info] Handle Execution of Cells 1,2,3,5,7,9,10,12,13,15,17,18,19,20,21,22,23,24,25,26,27,28,29,30,32,33,34,35,36,38,39,40,41,42,44,46,47,50,52,54,55,56,57,58,59,60,61,63,64,66,67,68,70,71,73,74,75,76,77,78,79,80,81,82,83,84,86 for ~/sourceCode/code/A2Carp.ipynb
+12:49:12.219 [info] Starting Kernel startUsingLocalKernelSpec, .python3./python./.-m#ipykernel_launcher  for '~/sourceCode/code/A2Carp.ipynb' (disableUI=false)
+12:49:12.275 [info] Launching Raw Kernel Python 3 (ipykernel) # python
+12:49:12.290 [info] Process Execution: /python -m ipykernel_launcher --f=~/.local/share/jupyter/runtime/kernel-v2-251aIAaMG8dajWW.json
+    > cwd: ~/sourceCode/code
+12:49:13.673 [info] Kernel acknowledged execution of cell 1 @ 1701175753672
+12:49:16.340 [info] End cell 1 execution @ 1701175756339, started @ 1701175753672, elapsed time = 2.667s
+12:49:16.351 [info] Kernel acknowledged execution of cell 2 @ 1701175756350
+12:49:16.876 [warn] StdErr from Kernel Process 2023-11-28 12:49:16.799505: I external/local_tsl/tsl/cuda/cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+12:49:16.877 [warn] StdErr from Kernel Process 2023-11-28 12:49:16.856694: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:9261] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2023-11-28 12:49:16.856750: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:607] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2023-11-28 12:49:16.860162: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1515] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2023-11-28 12:49:16.875064: I external/local_tsl/tsl/cuda/cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+2023-11-28 12:49:16.876601: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+12:49:19.054 [warn] StdErr from Kernel Process 2023-11-28 12:49:19.052061: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+12:49:20.495 [info] End cell 2 execution @ 1701175760494, started @ 1701175756350, elapsed time = 4.144s
+12:49:20.496 [info] End cell 3 execution @ undefined, started @ undefined, elapsed time = 0s
+12:49:20.509 [info] Kernel acknowledged execution of cell 5 @ 1701175760508
+12:49:20.602 [info] End cell 5 execution @ 1701175760602, started @ 1701175760508, elapsed time = 0.094s
+12:49:20.619 [info] Kernel acknowledged execution of cell 7 @ 1701175760619
+12:49:20.638 [info] End cell 7 execution @ 1701175760638, started @ 1701175760619, elapsed time = 0.019s
+12:49:20.645 [info] Kernel acknowledged execution of cell 9 @ 1701175760645
+12:49:20.660 [info] End cell 9 execution @ 1701175760660, started @ 1701175760645, elapsed time = 0.015s
+12:49:20.671 [info] Kernel acknowledged execution of cell 10 @ 1701175760671
+12:49:20.678 [info] End cell 10 execution @ 1701175760678, started @ 1701175760671, elapsed time = 0.007s
+12:49:20.690 [info] Kernel acknowledged execution of cell 12 @ 1701175760690
+12:49:20.701 [info] End cell 12 execution @ 1701175760701, started @ 1701175760690, elapsed time = 0.011s
+12:49:20.719 [info] Kernel acknowledged execution of cell 13 @ 1701175760719
+12:49:20.781 [info] End cell 13 execution @ 1701175760780, started @ 1701175760719, elapsed time = 0.061s
+12:49:20.804 [info] Kernel acknowledged execution of cell 15 @ 1701175760804
+12:49:20.815 [info] End cell 15 execution @ 1701175760814, started @ 1701175760804, elapsed time = 0.01s
+12:49:20.825 [info] Kernel acknowledged execution of cell 17 @ 1701175760824
+12:49:20.832 [info] End cell 17 execution @ 1701175760830, started @ 1701175760824, elapsed time = 0.006s
+12:49:20.843 [info] Kernel acknowledged execution of cell 18 @ 1701175760842
+12:49:21.281 [info] End cell 18 execution @ 1701175761281, started @ 1701175760842, elapsed time = 0.439s
+12:49:21.282 [warn] Cancel all remaining cells due to cancellation or failure in execution
+12:49:21.282 [info] End cell 19 execution @ undefined, started @ undefined, elapsed time = 0s
+12:49:21.283 [info] End cell 20 execution @ undefined, started @ undefined, elapsed time = 0s
+12:49:21.283 [info] End cell 21 execution @ undefined, started @ undefined, elapsed time = 0s
+12:49:21.283 [info] End cell 22 execution @ undefined, started @ undefined, elapsed time = 0s
+12:49:21.283 [info] End cell 23 execution @ undefined, started @ undefined, elapsed time = 0s
+12:49:21.283 [info] End cell 24 execution @ undefined, started @ undefined, elapsed time = 0s
+12:49:21.283 [info] End cell 25 execution @ undefined, started @ undefined, elapsed time = 0s
+12:49:21.284 [info] End cell 26 execution @ undefined, started @ undefined, elapsed time = 0s
+12:49:21.284 [info] End cell 27 execution @ undefined, started @ undefined, elapsed time = 0s
+12:49:21.284 [info] End cell 28 execution @ undefined, started @ undefined, elapsed time = 0s
+12:49:21.284 [info] End cell 29 execution @ undefined, started @ undefined, elapsed time = 0s
+12:49:21.284 [info] End cell 30 execution @ undefined, started @ undefined, elapsed time = 0s
+12:49:21.284 [info] End cell 32 execution @ undefined, started @ undefined, elapsed time = 0s
+12:49:21.284 [info] End cell 33 execution @ undefined, started @ undefined, elapsed time = 0s
+12:49:21.284 [info] End cell 34 execution @ undefined, started @ undefined, elapsed time = 0s
+12:49:21.284 [info] End cell 35 execution @ undefined, started @ undefined, elapsed time = 0s
+12:49:21.284 [info] End cell 36 execution @ undefined, started @ undefined, elapsed time = 0s
+12:49:21.284 [info] End cell 38 execution @ undefined, started @ undefined, elapsed time = 0s
+12:49:21.284 [info] End cell 39 execution @ undefined, started @ undefined, elapsed time = 0s
+12:49:21.284 [info] End cell 40 execution @ undefined, started @ undefined, elapsed time = 0s
+12:49:21.285 [info] End cell 41 execution @ undefined, started @ undefined, elapsed time = 0s
+12:49:21.285 [info] End cell 42 execution @ undefined, started @ undefined, elapsed time = 0s
+12:49:21.285 [info] End cell 44 execution @ undefined, started @ undefined, elapsed time = 0s
+12:49:21.285 [info] End cell 46 execution @ undefined, started @ undefined, elapsed time = 0s
+12:49:21.285 [info] End cell 47 execution @ undefined, started @ undefined, elapsed time = 0s
+12:49:21.285 [info] End cell 50 execution @ undefined, started @ undefined, elapsed time = 0s
+12:49:21.285 [info] End cell 52 execution @ undefined, started @ undefined, elapsed time = 0s
+12:49:21.285 [info] End cell 54 execution @ undefined, started @ undefined, elapsed time = 0s
+12:49:21.285 [info] End cell 55 execution @ undefined, started @ undefined, elapsed time = 0s
+12:49:21.285 [info] End cell 56 execution @ undefined, started @ undefined, elapsed time = 0s
+12:49:21.286 [info] End cell 57 execution @ undefined, started @ undefined, elapsed time = 0s
+12:49:21.286 [info] End cell 58 execution @ undefined, started @ undefined, elapsed time = 0s
+12:49:21.286 [info] End cell 59 execution @ undefined, started @ undefined, elapsed time = 0s
+12:49:21.286 [info] End cell 60 execution @ undefined, started @ undefined, elapsed time = 0s
+12:49:21.286 [info] End cell 61 execution @ undefined, started @ undefined, elapsed time = 0s
+12:49:21.286 [info] End cell 63 execution @ undefined, started @ undefined, elapsed time = 0s
+12:49:21.286 [info] End cell 64 execution @ undefined, started @ undefined, elapsed time = 0s
+12:49:21.286 [info] End cell 66 execution @ undefined, started @ undefined, elapsed time = 0s
+12:49:21.287 [info] End cell 67 execution @ undefined, started @ undefined, elapsed time = 0s
+12:49:21.287 [info] End cell 68 execution @ undefined, started @ undefined, elapsed time = 0s
+12:49:21.287 [info] End cell 70 execution @ undefined, started @ undefined, elapsed time = 0s
+12:49:21.287 [info] End cell 71 execution @ undefined, started @ undefined, elapsed time = 0s
+12:49:21.287 [info] End cell 73 execution @ undefined, started @ undefined, elapsed time = 0s
+12:49:21.287 [info] End cell 74 execution @ undefined, started @ undefined, elapsed time = 0s
+12:49:21.287 [info] End cell 75 execution @ undefined, started @ undefined, elapsed time = 0s
+12:49:21.288 [info] End cell 76 execution @ undefined, started @ undefined, elapsed time = 0s
+12:49:21.288 [info] End cell 77 execution @ undefined, started @ undefined, elapsed time = 0s
+12:49:21.288 [info] End cell 78 execution @ undefined, started @ undefined, elapsed time = 0s
+12:49:21.288 [info] End cell 79 execution @ undefined, started @ undefined, elapsed time = 0s
+12:49:21.288 [info] End cell 80 execution @ undefined, started @ undefined, elapsed time = 0s
+12:49:21.288 [info] End cell 81 execution @ undefined, started @ undefined, elapsed time = 0s
+12:49:21.288 [info] End cell 82 execution @ undefined, started @ undefined, elapsed time = 0s
+12:49:21.288 [info] End cell 83 execution @ undefined, started @ undefined, elapsed time = 0s
+12:49:21.288 [info] End cell 84 execution @ undefined, started @ undefined, elapsed time = 0s
+12:49:21.289 [info] End cell 86 execution @ undefined, started @ undefined, elapsed time = 0s
+12:49:57.272 [info] Not using Pylance
+12:50:10.586 [info] Handle Execution of Cells 18 for ~/sourceCode/code/A2Carp.ipynb
+12:50:10.595 [info] Kernel acknowledged execution of cell 18 @ 1701175810595
+12:50:10.597 [info] End cell 18 execution @ 1701175810597, started @ 1701175810595, elapsed time = 0.002s
+12:50:13.428 [info] Handle Execution of Cells 19 for ~/sourceCode/code/A2Carp.ipynb
+12:50:13.441 [info] Kernel acknowledged execution of cell 19 @ 1701175813441
+12:50:14.560 [info] End cell 19 execution @ 1701175814560, started @ 1701175813441, elapsed time = 1.119s
+12:50:14.561 [warn] Cancel all remaining cells due to cancellation or failure in execution
+12:50:22.402 [info] Handle Execution of Cells 32 for ~/sourceCode/code/A2Carp.ipynb
+12:50:22.410 [info] Kernel acknowledged execution of cell 32 @ 1701175822410
+12:50:22.529 [info] End cell 32 execution @ 1701175822529, started @ 1701175822410, elapsed time = 0.119s
+12:50:22.529 [warn] Cancel all remaining cells due to cancellation or failure in execution
+12:50:49.276 [info] Handle Execution of Cells 28 for ~/sourceCode/code/A2Carp.ipynb
+12:50:49.292 [info] Kernel acknowledged execution of cell 28 @ 1701175849291
+12:50:49.407 [info] End cell 28 execution @ 1701175849407, started @ 1701175849291, elapsed time = 0.116s
+12:50:49.408 [warn] Cancel all remaining cells due to cancellation or failure in execution
+12:51:42.510 [info] Handle Execution of Cells 5 for ~/sourceCode/code/A2Carp.ipynb
+12:51:42.523 [info] Kernel acknowledged execution of cell 5 @ 1701175902522
+12:51:42.926 [info] End cell 5 execution @ 1701175902925, started @ 1701175902522, elapsed time = 0.403s
+12:51:42.926 [warn] Cancel all remaining cells due to cancellation or failure in execution
+12:51:51.197 [info] Handle Execution of Cells 5 for ~/sourceCode/code/A2Carp.ipynb
+12:51:51.206 [info] Kernel acknowledged execution of cell 5 @ 1701175911206
+12:51:51.225 [info] End cell 5 execution @ 1701175911225, started @ 1701175911206, elapsed time = 0.019s
+12:51:54.229 [info] Handle Execution of Cells 1,2,3,5,7,9,10,12,13,15,17,18,19,20,21,22,23,24,25,26,27,28,29,30,32,33,34,35,36,38,39,40,41,42,44,46,47,50,52,54,55,56,57,58,59,60,61,63,64,66,67,68,70,71,73,74,75,76,77,78,79,80,81,82,83,84,86 for ~/sourceCode/code/A2Carp.ipynb
+12:51:54.251 [info] Kernel acknowledged execution of cell 1 @ 1701175914251
+12:51:54.255 [info] End cell 1 execution @ 1701175914255, started @ 1701175914251, elapsed time = 0.004s
+12:51:54.261 [info] Kernel acknowledged execution of cell 2 @ 1701175914261
+12:51:54.265 [info] End cell 2 execution @ 1701175914265, started @ 1701175914261, elapsed time = 0.004s
+12:51:54.266 [info] End cell 3 execution @ undefined, started @ undefined, elapsed time = 0s
+12:51:54.269 [info] Kernel acknowledged execution of cell 5 @ 1701175914269
+12:51:54.287 [info] End cell 5 execution @ 1701175914287, started @ 1701175914269, elapsed time = 0.018s
+12:51:54.302 [info] Kernel acknowledged execution of cell 7 @ 1701175914301
+12:51:54.306 [info] End cell 7 execution @ 1701175914306, started @ 1701175914301, elapsed time = 0.005s
+12:51:54.311 [info] Kernel acknowledged execution of cell 9 @ 1701175914311
+12:51:54.316 [info] End cell 9 execution @ 1701175914316, started @ 1701175914311, elapsed time = 0.005s
+12:51:54.322 [info] Kernel acknowledged execution of cell 10 @ 1701175914322
+12:51:54.327 [info] End cell 10 execution @ 1701175914327, started @ 1701175914322, elapsed time = 0.005s
+12:51:54.334 [info] Kernel acknowledged execution of cell 12 @ 1701175914334
+12:51:54.338 [info] End cell 12 execution @ 1701175914338, started @ 1701175914334, elapsed time = 0.004s
+12:51:54.348 [info] Kernel acknowledged execution of cell 13 @ 1701175914348
+12:51:54.359 [info] End cell 13 execution @ 1701175914359, started @ 1701175914348, elapsed time = 0.011s
+12:51:54.364 [info] Kernel acknowledged execution of cell 15 @ 1701175914364
+12:51:54.395 [info] End cell 15 execution @ 1701175914395, started @ 1701175914364, elapsed time = 0.031s
+12:51:54.398 [info] Kernel acknowledged execution of cell 17 @ 1701175914398
+12:51:54.403 [info] End cell 17 execution @ 1701175914403, started @ 1701175914398, elapsed time = 0.005s
+12:51:54.408 [info] Kernel acknowledged execution of cell 18 @ 1701175914408
+12:51:54.411 [info] End cell 18 execution @ 1701175914411, started @ 1701175914408, elapsed time = 0.003s
+12:51:54.418 [info] Kernel acknowledged execution of cell 19 @ 1701175914418
+12:51:54.433 [info] End cell 19 execution @ 1701175914433, started @ 1701175914418, elapsed time = 0.015s
+12:51:54.444 [info] Kernel acknowledged execution of cell 20 @ 1701175914444
+12:51:55.310 [info] End cell 20 execution @ 1701175915309, started @ 1701175914444, elapsed time = 0.865s
+12:51:55.310 [warn] Cancel all remaining cells due to cancellation or failure in execution
+12:51:55.310 [info] End cell 21 execution @ undefined, started @ undefined, elapsed time = 0s
+12:51:55.310 [info] End cell 22 execution @ undefined, started @ undefined, elapsed time = 0s
+12:51:55.311 [info] End cell 23 execution @ undefined, started @ undefined, elapsed time = 0s
+12:51:55.311 [info] End cell 24 execution @ undefined, started @ undefined, elapsed time = 0s
+12:51:55.311 [info] End cell 25 execution @ undefined, started @ undefined, elapsed time = 0s
+12:51:55.311 [info] End cell 26 execution @ undefined, started @ undefined, elapsed time = 0s
+12:51:55.311 [info] End cell 27 execution @ undefined, started @ undefined, elapsed time = 0s
+12:51:55.311 [info] End cell 28 execution @ undefined, started @ undefined, elapsed time = 0s
+12:51:55.311 [info] End cell 29 execution @ undefined, started @ undefined, elapsed time = 0s
+12:51:55.311 [info] End cell 30 execution @ undefined, started @ undefined, elapsed time = 0s
+12:51:55.311 [info] End cell 32 execution @ undefined, started @ undefined, elapsed time = 0s
+12:51:55.311 [info] End cell 33 execution @ undefined, started @ undefined, elapsed time = 0s
+12:51:55.311 [info] End cell 34 execution @ undefined, started @ undefined, elapsed time = 0s
+12:51:55.311 [info] End cell 35 execution @ undefined, started @ undefined, elapsed time = 0s
+12:51:55.311 [info] End cell 36 execution @ undefined, started @ undefined, elapsed time = 0s
+12:51:55.311 [info] End cell 38 execution @ undefined, started @ undefined, elapsed time = 0s
+12:51:55.311 [info] End cell 39 execution @ undefined, started @ undefined, elapsed time = 0s
+12:51:55.311 [info] End cell 40 execution @ undefined, started @ undefined, elapsed time = 0s
+12:51:55.311 [info] End cell 41 execution @ undefined, started @ undefined, elapsed time = 0s
+12:51:55.311 [info] End cell 42 execution @ undefined, started @ undefined, elapsed time = 0s
+12:51:55.312 [info] End cell 44 execution @ undefined, started @ undefined, elapsed time = 0s
+12:51:55.312 [info] End cell 46 execution @ undefined, started @ undefined, elapsed time = 0s
+12:51:55.312 [info] End cell 47 execution @ undefined, started @ undefined, elapsed time = 0s
+12:51:55.312 [info] End cell 50 execution @ undefined, started @ undefined, elapsed time = 0s
+12:51:55.312 [info] End cell 52 execution @ undefined, started @ undefined, elapsed time = 0s
+12:51:55.312 [info] End cell 54 execution @ undefined, started @ undefined, elapsed time = 0s
+12:51:55.312 [info] End cell 55 execution @ undefined, started @ undefined, elapsed time = 0s
+12:51:55.312 [info] End cell 56 execution @ undefined, started @ undefined, elapsed time = 0s
+12:51:55.312 [info] End cell 57 execution @ undefined, started @ undefined, elapsed time = 0s
+12:51:55.312 [info] End cell 58 execution @ undefined, started @ undefined, elapsed time = 0s
+12:51:55.312 [info] End cell 59 execution @ undefined, started @ undefined, elapsed time = 0s
+12:51:55.312 [info] End cell 60 execution @ undefined, started @ undefined, elapsed time = 0s
+12:51:55.312 [info] End cell 61 execution @ undefined, started @ undefined, elapsed time = 0s
+12:51:55.312 [info] End cell 63 execution @ undefined, started @ undefined, elapsed time = 0s
+12:51:55.312 [info] End cell 64 execution @ undefined, started @ undefined, elapsed time = 0s
+12:51:55.312 [info] End cell 66 execution @ undefined, started @ undefined, elapsed time = 0s
+12:51:55.313 [info] End cell 67 execution @ undefined, started @ undefined, elapsed time = 0s
+12:51:55.313 [info] End cell 68 execution @ undefined, started @ undefined, elapsed time = 0s
+12:51:55.313 [info] End cell 70 execution @ undefined, started @ undefined, elapsed time = 0s
+12:51:55.313 [info] End cell 71 execution @ undefined, started @ undefined, elapsed time = 0s
+12:51:55.313 [info] End cell 73 execution @ undefined, started @ undefined, elapsed time = 0s
+12:51:55.313 [info] End cell 74 execution @ undefined, started @ undefined, elapsed time = 0s
+12:51:55.313 [info] End cell 75 execution @ undefined, started @ undefined, elapsed time = 0s
+12:51:55.313 [info] End cell 76 execution @ undefined, started @ undefined, elapsed time = 0s
+12:51:55.313 [info] End cell 77 execution @ undefined, started @ undefined, elapsed time = 0s
+12:51:55.313 [info] End cell 78 execution @ undefined, started @ undefined, elapsed time = 0s
+12:51:55.313 [info] End cell 79 execution @ undefined, started @ undefined, elapsed time = 0s
+12:51:55.313 [info] End cell 80 execution @ undefined, started @ undefined, elapsed time = 0s
+12:51:55.313 [info] End cell 81 execution @ undefined, started @ undefined, elapsed time = 0s
+12:51:55.313 [info] End cell 82 execution @ undefined, started @ undefined, elapsed time = 0s
+12:51:55.313 [info] End cell 83 execution @ undefined, started @ undefined, elapsed time = 0s
+12:51:55.313 [info] End cell 84 execution @ undefined, started @ undefined, elapsed time = 0s
+12:51:55.313 [info] End cell 86 execution @ undefined, started @ undefined, elapsed time = 0s
+12:52:08.320 [info] Handle Execution of Cells 21 for ~/sourceCode/code/A2Carp.ipynb
+12:52:08.339 [info] Kernel acknowledged execution of cell 21 @ 1701175928339
+12:52:08.695 [info] End cell 21 execution @ 1701175928695, started @ 1701175928339, elapsed time = 0.356s
+12:52:12.187 [info] Handle Execution of Cells 1,2,3,5,7,9,10,12,13,15,17,18,19,21,22,23,24,25,27,28,29,30,31,33,35,36,39,41,43,44,45,46,47,48,49,50,52,53,55,56,57,59,60,62,63,64,65,66,67,68,69,70,71,72,73,75 for ~/sourceCode/code/A2Carp.ipynb
+12:52:12.210 [info] Kernel acknowledged execution of cell 1 @ 1701175932210
+12:52:12.214 [info] End cell 1 execution @ 1701175932214, started @ 1701175932210, elapsed time = 0.004s
+12:52:12.219 [info] Kernel acknowledged execution of cell 2 @ 1701175932218
+12:52:12.223 [info] End cell 2 execution @ 1701175932223, started @ 1701175932218, elapsed time = 0.005s
+12:52:12.224 [info] End cell 3 execution @ undefined, started @ undefined, elapsed time = 0s
+12:52:12.227 [info] Kernel acknowledged execution of cell 5 @ 1701175932226
+12:52:12.245 [info] End cell 5 execution @ 1701175932245, started @ 1701175932226, elapsed time = 0.019s
+12:52:12.259 [info] Kernel acknowledged execution of cell 7 @ 1701175932259
+12:52:12.264 [info] End cell 7 execution @ 1701175932264, started @ 1701175932259, elapsed time = 0.005s
+12:52:12.269 [info] Kernel acknowledged execution of cell 9 @ 1701175932269
+12:52:12.274 [info] End cell 9 execution @ 1701175932274, started @ 1701175932269, elapsed time = 0.005s
+12:52:12.280 [info] Kernel acknowledged execution of cell 10 @ 1701175932280
+12:52:12.285 [info] End cell 10 execution @ 1701175932285, started @ 1701175932280, elapsed time = 0.005s
+12:52:12.292 [info] Kernel acknowledged execution of cell 12 @ 1701175932292
+12:52:12.297 [info] End cell 12 execution @ 1701175932296, started @ 1701175932292, elapsed time = 0.004s
+12:52:12.306 [info] Kernel acknowledged execution of cell 13 @ 1701175932306
+12:52:12.316 [info] End cell 13 execution @ 1701175932316, started @ 1701175932306, elapsed time = 0.01s
+12:52:12.321 [info] Kernel acknowledged execution of cell 15 @ 1701175932321
+12:52:12.351 [info] End cell 15 execution @ 1701175932351, started @ 1701175932321, elapsed time = 0.03s
+12:52:12.356 [info] Kernel acknowledged execution of cell 17 @ 1701175932356
+12:52:12.360 [info] End cell 17 execution @ 1701175932360, started @ 1701175932356, elapsed time = 0.004s
+12:52:12.367 [info] Kernel acknowledged execution of cell 18 @ 1701175932366
+12:52:12.371 [info] End cell 18 execution @ 1701175932371, started @ 1701175932366, elapsed time = 0.005s
+12:52:12.380 [info] Kernel acknowledged execution of cell 19 @ 1701175932380
+12:52:12.402 [info] End cell 19 execution @ 1701175932402, started @ 1701175932380, elapsed time = 0.022s
+12:52:12.414 [info] Kernel acknowledged execution of cell 21 @ 1701175932414
+12:52:12.763 [info] End cell 21 execution @ 1701175932762, started @ 1701175932414, elapsed time = 0.348s
+12:52:12.772 [info] Kernel acknowledged execution of cell 22 @ 1701175932772
+12:52:12.938 [info] End cell 22 execution @ 1701175932938, started @ 1701175932772, elapsed time = 0.166s
+12:52:12.944 [info] Kernel acknowledged execution of cell 23 @ 1701175932944
+12:52:13.260 [info] End cell 23 execution @ 1701175933260, started @ 1701175932944, elapsed time = 0.316s
+12:52:13.277 [info] Kernel acknowledged execution of cell 24 @ 1701175933276
+12:52:13.619 [info] End cell 24 execution @ 1701175933619, started @ 1701175933276, elapsed time = 0.343s
+12:52:13.626 [info] Kernel acknowledged execution of cell 25 @ 1701175933626
+12:52:13.955 [info] End cell 25 execution @ 1701175933955, started @ 1701175933626, elapsed time = 0.329s
+12:52:13.962 [info] Kernel acknowledged execution of cell 27 @ 1701175933962
+12:52:14.144 [info] End cell 27 execution @ 1701175934144, started @ 1701175933962, elapsed time = 0.182s
+12:52:14.152 [info] Kernel acknowledged execution of cell 28 @ 1701175934151
+12:52:14.314 [info] End cell 28 execution @ 1701175934314, started @ 1701175934151, elapsed time = 0.163s
+12:52:14.329 [info] Kernel acknowledged execution of cell 29 @ 1701175934329
+12:52:14.334 [info] End cell 29 execution @ 1701175934334, started @ 1701175934329, elapsed time = 0.005s
+12:52:14.339 [info] Kernel acknowledged execution of cell 30 @ 1701175934338
+12:52:14.433 [info] End cell 30 execution @ 1701175934433, started @ 1701175934338, elapsed time = 0.095s
+12:52:14.446 [info] Kernel acknowledged execution of cell 31 @ 1701175934446
+12:52:14.465 [info] End cell 31 execution @ 1701175934465, started @ 1701175934446, elapsed time = 0.019s
+12:52:14.475 [info] Kernel acknowledged execution of cell 33 @ 1701175934474
+12:52:14.946 [info] End cell 33 execution @ 1701175934946, started @ 1701175934474, elapsed time = 0.472s
+12:52:14.949 [info] Kernel acknowledged execution of cell 35 @ 1701175934949
+12:52:16.913 [info] End cell 35 execution @ 1701175936913, started @ 1701175934949, elapsed time = 1.964s
+12:52:16.917 [info] Kernel acknowledged execution of cell 36 @ 1701175936917
+12:52:16.929 [info] End cell 36 execution @ 1701175936929, started @ 1701175936917, elapsed time = 0.012s
+12:52:16.932 [info] Kernel acknowledged execution of cell 39 @ 1701175936932
+12:52:16.942 [info] End cell 39 execution @ 1701175936942, started @ 1701175936932, elapsed time = 0.01s
+12:52:16.949 [info] Kernel acknowledged execution of cell 41 @ 1701175936949
+12:52:16.956 [info] End cell 41 execution @ 1701175936956, started @ 1701175936949, elapsed time = 0.007s
+12:52:16.962 [info] Kernel acknowledged execution of cell 43 @ 1701175936962
+12:52:16.967 [info] End cell 43 execution @ 1701175936967, started @ 1701175936962, elapsed time = 0.005s
+12:52:16.975 [info] Kernel acknowledged execution of cell 44 @ 1701175936975
+12:52:16.983 [info] End cell 44 execution @ 1701175936983, started @ 1701175936975, elapsed time = 0.008s
+12:52:16.994 [info] Kernel acknowledged execution of cell 45 @ 1701175936994
+12:52:16.998 [info] End cell 45 execution @ 1701175936998, started @ 1701175936994, elapsed time = 0.004s
+12:52:17.008 [info] Kernel acknowledged execution of cell 46 @ 1701175937008
+12:52:17.013 [info] End cell 46 execution @ 1701175937013, started @ 1701175937008, elapsed time = 0.005s
+12:52:17.020 [info] Kernel acknowledged execution of cell 47 @ 1701175937020
+12:52:17.030 [info] End cell 47 execution @ 1701175937029, started @ 1701175937020, elapsed time = 0.009s
+12:52:17.039 [info] Kernel acknowledged execution of cell 48 @ 1701175937039
+12:52:17.045 [info] End cell 48 execution @ 1701175937045, started @ 1701175937039, elapsed time = 0.006s
+12:52:17.054 [info] Kernel acknowledged execution of cell 49 @ 1701175937054
+12:52:17.060 [info] End cell 49 execution @ 1701175937060, started @ 1701175937054, elapsed time = 0.006s
+12:52:17.067 [info] Kernel acknowledged execution of cell 50 @ 1701175937067
+12:52:17.076 [info] End cell 50 execution @ 1701175937076, started @ 1701175937067, elapsed time = 0.009s
+12:52:17.084 [info] Kernel acknowledged execution of cell 52 @ 1701175937084
+12:52:17.461 [info] End cell 52 execution @ 1701175937461, started @ 1701175937084, elapsed time = 0.377s
+12:52:17.471 [info] Kernel acknowledged execution of cell 53 @ 1701175937470
+12:52:17.480 [info] End cell 53 execution @ 1701175937480, started @ 1701175937470, elapsed time = 0.01s
+12:52:17.488 [info] Kernel acknowledged execution of cell 55 @ 1701175937488
+12:52:17.498 [info] End cell 55 execution @ 1701175937498, started @ 1701175937488, elapsed time = 0.01s
+12:52:17.499 [info] End cell 56 execution @ undefined, started @ undefined, elapsed time = 0s
+12:52:17.506 [info] Kernel acknowledged execution of cell 57 @ 1701175937506
+12:52:17.510 [info] End cell 57 execution @ 1701175937510, started @ 1701175937506, elapsed time = 0.004s
+12:52:17.510 [info] End cell 59 execution @ undefined, started @ undefined, elapsed time = 0s
+12:52:17.535 [info] Kernel acknowledged execution of cell 60 @ 1701175937535
+12:52:17.834 [info] End cell 60 execution @ 1701175937834, started @ 1701175937535, elapsed time = 0.299s
+12:52:17.851 [info] Kernel acknowledged execution of cell 62 @ 1701175937850
+12:52:17.859 [info] End cell 62 execution @ 1701175937859, started @ 1701175937850, elapsed time = 0.009s
+12:52:17.864 [info] Kernel acknowledged execution of cell 63 @ 1701175937864
+12:52:17.870 [info] End cell 63 execution @ 1701175937870, started @ 1701175937864, elapsed time = 0.006s
+12:52:17.881 [info] Kernel acknowledged execution of cell 64 @ 1701175937880
+12:52:17.885 [info] End cell 64 execution @ 1701175937885, started @ 1701175937880, elapsed time = 0.005s
+12:52:17.898 [info] Kernel acknowledged execution of cell 65 @ 1701175937898
+12:52:34.483 [info] Interrupt kernel execution
+12:52:34.484 [info] End cell 66 execution @ undefined, started @ undefined, elapsed time = 0s
+12:52:34.484 [info] End cell 67 execution @ undefined, started @ undefined, elapsed time = 0s
+12:52:34.484 [info] End cell 68 execution @ undefined, started @ undefined, elapsed time = 0s
+12:52:34.484 [info] End cell 69 execution @ undefined, started @ undefined, elapsed time = 0s
+12:52:34.484 [info] End cell 70 execution @ undefined, started @ undefined, elapsed time = 0s
+12:52:34.484 [info] End cell 71 execution @ undefined, started @ undefined, elapsed time = 0s
+12:52:34.484 [info] End cell 72 execution @ undefined, started @ undefined, elapsed time = 0s
+12:52:34.484 [info] End cell 73 execution @ undefined, started @ undefined, elapsed time = 0s
+12:52:34.485 [info] End cell 75 execution @ undefined, started @ undefined, elapsed time = 0s
+12:52:34.485 [info] Interrupt requested ~/sourceCode/code/A2Carp.ipynb
+12:52:34.488 [info] Interrupt kernel execution
+12:52:34.489 [info] Interrupting kernel: python3
+12:52:34.489 [info] Interrupting kernel via SIGINT
+12:52:35.199 [info] End cell 65 execution @ 1701175955199, started @ 1701175937898, elapsed time = 17.301s
+12:52:35.200 [warn] Cancel all remaining cells due to cancellation or failure in execution
+12:52:35.202 [info] Interrupt requested & sent for ~/sourceCode/code/A2Carp.ipynb in notebookEditor.
+12:57:11.899 [info] Handle Execution of Cells 1,2,3,5,7,9,10,12,13,15,17,18,19,21,22,23,24,25,27,28,29,30,31,33,35,36,39,41,43,44,45,46,47,48,49,50,52,53,55,56,57,59,60,62,63,64,65,66,67,68,69,70,71,72,73,75 for ~/sourceCode/code/A2Carp.ipynb
+12:57:11.926 [info] Kernel acknowledged execution of cell 1 @ 1701176231925
+12:57:11.929 [info] End cell 1 execution @ 1701176231929, started @ 1701176231925, elapsed time = 0.004s
+12:57:11.934 [info] Kernel acknowledged execution of cell 2 @ 1701176231934
+12:57:11.939 [info] End cell 2 execution @ 1701176231939, started @ 1701176231934, elapsed time = 0.005s
+12:57:11.940 [info] End cell 3 execution @ undefined, started @ undefined, elapsed time = 0s
+12:57:11.943 [info] Kernel acknowledged execution of cell 5 @ 1701176231943
+12:57:11.963 [info] End cell 5 execution @ 1701176231963, started @ 1701176231943, elapsed time = 0.02s
+12:57:11.973 [info] Kernel acknowledged execution of cell 7 @ 1701176231973
+12:57:11.983 [info] End cell 7 execution @ 1701176231982, started @ 1701176231973, elapsed time = 0.009s
+12:57:11.989 [info] Kernel acknowledged execution of cell 9 @ 1701176231989
+12:57:11.993 [info] End cell 9 execution @ 1701176231993, started @ 1701176231989, elapsed time = 0.004s
+12:57:11.999 [info] Kernel acknowledged execution of cell 10 @ 1701176231999
+12:57:12.004 [info] End cell 10 execution @ 1701176232004, started @ 1701176231999, elapsed time = 0.005s
+12:57:12.013 [info] Kernel acknowledged execution of cell 12 @ 1701176232013
+12:57:12.017 [info] End cell 12 execution @ 1701176232017, started @ 1701176232013, elapsed time = 0.004s
+12:57:12.033 [info] Kernel acknowledged execution of cell 13 @ 1701176232033
+12:57:12.044 [info] End cell 13 execution @ 1701176232044, started @ 1701176232033, elapsed time = 0.011s
+12:57:12.050 [info] Kernel acknowledged execution of cell 15 @ 1701176232050
+12:57:12.084 [info] End cell 15 execution @ 1701176232084, started @ 1701176232050, elapsed time = 0.034s
+12:57:12.090 [info] Kernel acknowledged execution of cell 17 @ 1701176232089
+12:57:12.092 [info] End cell 17 execution @ 1701176232092, started @ 1701176232089, elapsed time = 0.003s
+12:57:12.097 [info] Kernel acknowledged execution of cell 18 @ 1701176232097
+12:57:12.101 [info] End cell 18 execution @ 1701176232101, started @ 1701176232097, elapsed time = 0.004s
+12:57:12.106 [info] Kernel acknowledged execution of cell 19 @ 1701176232106
+12:57:12.122 [info] End cell 19 execution @ 1701176232122, started @ 1701176232106, elapsed time = 0.016s
+12:57:12.133 [info] Kernel acknowledged execution of cell 21 @ 1701176232133
+12:57:12.489 [info] End cell 21 execution @ 1701176232489, started @ 1701176232133, elapsed time = 0.356s
+12:57:12.502 [info] Kernel acknowledged execution of cell 22 @ 1701176232502
+12:57:12.666 [info] End cell 22 execution @ 1701176232666, started @ 1701176232502, elapsed time = 0.164s
+12:57:12.674 [info] Kernel acknowledged execution of cell 23 @ 1701176232674
+12:57:12.999 [info] End cell 23 execution @ 1701176232999, started @ 1701176232674, elapsed time = 0.325s
+12:57:13.009 [info] Kernel acknowledged execution of cell 24 @ 1701176233009
+12:57:13.360 [info] End cell 24 execution @ 1701176233360, started @ 1701176233009, elapsed time = 0.351s
+12:57:13.368 [info] Kernel acknowledged execution of cell 25 @ 1701176233368
+12:57:13.812 [info] End cell 25 execution @ 1701176233811, started @ 1701176233368, elapsed time = 0.443s
+12:57:13.823 [info] Kernel acknowledged execution of cell 27 @ 1701176233823
+12:57:14.063 [info] End cell 27 execution @ 1701176234063, started @ 1701176233823, elapsed time = 0.24s
+12:57:14.073 [info] Kernel acknowledged execution of cell 28 @ 1701176234072
+12:57:14.274 [info] End cell 28 execution @ 1701176234274, started @ 1701176234072, elapsed time = 0.202s
+12:57:14.287 [info] Kernel acknowledged execution of cell 29 @ 1701176234287
+12:57:14.303 [info] End cell 29 execution @ 1701176234303, started @ 1701176234287, elapsed time = 0.016s
+12:57:14.308 [info] Kernel acknowledged execution of cell 30 @ 1701176234308
+12:57:14.324 [info] End cell 30 execution @ 1701176234324, started @ 1701176234308, elapsed time = 0.016s
+12:57:14.341 [info] Kernel acknowledged execution of cell 31 @ 1701176234341
+12:57:14.347 [info] End cell 31 execution @ 1701176234346, started @ 1701176234341, elapsed time = 0.005s
+12:57:14.357 [info] Kernel acknowledged execution of cell 33 @ 1701176234357
+12:57:14.824 [info] End cell 33 execution @ 1701176234824, started @ 1701176234357, elapsed time = 0.467s
+12:57:14.836 [info] Kernel acknowledged execution of cell 35 @ 1701176234836
+12:57:16.735 [info] End cell 35 execution @ 1701176236735, started @ 1701176234836, elapsed time = 1.899s
+12:57:16.743 [info] Kernel acknowledged execution of cell 36 @ 1701176236743
+12:57:16.751 [info] End cell 36 execution @ 1701176236751, started @ 1701176236743, elapsed time = 0.008s
+12:57:16.755 [info] Kernel acknowledged execution of cell 39 @ 1701176236755
+12:57:16.763 [info] End cell 39 execution @ 1701176236763, started @ 1701176236755, elapsed time = 0.008s
+12:57:16.770 [info] Kernel acknowledged execution of cell 41 @ 1701176236770
+12:57:16.776 [info] End cell 41 execution @ 1701176236776, started @ 1701176236770, elapsed time = 0.006s
+12:57:16.783 [info] Kernel acknowledged execution of cell 43 @ 1701176236783
+12:57:16.788 [info] End cell 43 execution @ 1701176236788, started @ 1701176236783, elapsed time = 0.005s
+12:57:16.795 [info] Kernel acknowledged execution of cell 44 @ 1701176236795
+12:57:16.803 [info] End cell 44 execution @ 1701176236803, started @ 1701176236795, elapsed time = 0.008s
+12:57:16.806 [info] Kernel acknowledged execution of cell 45 @ 1701176236806
+12:57:16.817 [info] End cell 45 execution @ 1701176236817, started @ 1701176236806, elapsed time = 0.011s
+12:57:16.824 [info] Kernel acknowledged execution of cell 46 @ 1701176236824
+12:57:16.828 [info] End cell 46 execution @ 1701176236828, started @ 1701176236824, elapsed time = 0.004s
+12:57:16.835 [info] Kernel acknowledged execution of cell 47 @ 1701176236835
+12:57:16.840 [info] End cell 47 execution @ 1701176236840, started @ 1701176236835, elapsed time = 0.005s
+12:57:16.850 [info] Kernel acknowledged execution of cell 48 @ 1701176236849
+12:57:16.855 [info] End cell 48 execution @ 1701176236854, started @ 1701176236849, elapsed time = 0.005s
+12:57:16.862 [info] Kernel acknowledged execution of cell 49 @ 1701176236862
+12:57:16.868 [info] End cell 49 execution @ 1701176236868, started @ 1701176236862, elapsed time = 0.006s
+12:57:16.875 [info] Kernel acknowledged execution of cell 50 @ 1701176236875
+12:57:16.884 [info] End cell 50 execution @ 1701176236883, started @ 1701176236875, elapsed time = 0.008s
+12:57:16.905 [info] Kernel acknowledged execution of cell 52 @ 1701176236905
+12:57:17.284 [info] End cell 52 execution @ 1701176237284, started @ 1701176236905, elapsed time = 0.379s
+12:57:17.295 [info] Kernel acknowledged execution of cell 53 @ 1701176237295
+12:57:17.303 [info] End cell 53 execution @ 1701176237303, started @ 1701176237295, elapsed time = 0.008s
+12:57:17.312 [info] Kernel acknowledged execution of cell 55 @ 1701176237312
+12:57:17.323 [info] End cell 55 execution @ 1701176237323, started @ 1701176237312, elapsed time = 0.011s
+12:57:17.324 [info] End cell 56 execution @ undefined, started @ undefined, elapsed time = 0s
+12:57:17.330 [info] Kernel acknowledged execution of cell 57 @ 1701176237330
+12:57:17.335 [info] End cell 57 execution @ 1701176237335, started @ 1701176237330, elapsed time = 0.005s
+12:57:17.336 [info] End cell 59 execution @ undefined, started @ undefined, elapsed time = 0s
+12:57:17.362 [info] Kernel acknowledged execution of cell 60 @ 1701176237362
+12:57:17.368 [info] End cell 60 execution @ 1701176237368, started @ 1701176237362, elapsed time = 0.006s
+12:57:17.387 [info] Kernel acknowledged execution of cell 62 @ 1701176237387
+12:57:17.391 [info] End cell 62 execution @ 1701176237390, started @ 1701176237387, elapsed time = 0.003s
+12:57:17.397 [info] Kernel acknowledged execution of cell 63 @ 1701176237397
+12:57:17.401 [info] End cell 63 execution @ 1701176237401, started @ 1701176237397, elapsed time = 0.004s
+12:57:17.409 [info] Kernel acknowledged execution of cell 64 @ 1701176237409
+12:57:17.413 [info] End cell 64 execution @ 1701176237413, started @ 1701176237409, elapsed time = 0.004s
+12:57:17.422 [info] Kernel acknowledged execution of cell 65 @ 1701176237422
+12:57:17.625 [info] End cell 65 execution @ 1701176237625, started @ 1701176237422, elapsed time = 0.203s
+12:57:17.625 [warn] Cancel all remaining cells due to cancellation or failure in execution
+12:57:17.626 [info] End cell 66 execution @ undefined, started @ undefined, elapsed time = 0s
+12:57:17.626 [info] End cell 67 execution @ undefined, started @ undefined, elapsed time = 0s
+12:57:17.626 [info] End cell 68 execution @ undefined, started @ undefined, elapsed time = 0s
+12:57:17.626 [info] End cell 69 execution @ undefined, started @ undefined, elapsed time = 0s
+12:57:17.626 [info] End cell 70 execution @ undefined, started @ undefined, elapsed time = 0s
+12:57:17.626 [info] End cell 71 execution @ undefined, started @ undefined, elapsed time = 0s
+12:57:17.626 [info] End cell 72 execution @ undefined, started @ undefined, elapsed time = 0s
+12:57:17.626 [info] End cell 73 execution @ undefined, started @ undefined, elapsed time = 0s
+12:57:17.626 [info] End cell 75 execution @ undefined, started @ undefined, elapsed time = 0s
+12:57:32.062 [info] Handle Execution of Cells 1,2,3,5,7,9,10,12,13,15,17,18,19,21,22,23,24,25,27,28,29,30,31,33,35,36,39,41,43,44,45,46,47,48,49,50,52,53,55,56,57,59,60,62,63,64,65,66,67,68,69,70,71,72,73,75 for ~/sourceCode/code/A2Carp.ipynb
+12:57:32.086 [info] Kernel acknowledged execution of cell 1 @ 1701176252085
+12:57:32.089 [info] End cell 1 execution @ 1701176252089, started @ 1701176252085, elapsed time = 0.004s
+12:57:32.095 [info] Kernel acknowledged execution of cell 2 @ 1701176252095
+12:57:32.100 [info] End cell 2 execution @ 1701176252100, started @ 1701176252095, elapsed time = 0.005s
+12:57:32.101 [info] End cell 3 execution @ undefined, started @ undefined, elapsed time = 0s
+12:57:32.105 [info] Kernel acknowledged execution of cell 5 @ 1701176252105
+12:57:32.124 [info] End cell 5 execution @ 1701176252124, started @ 1701176252105, elapsed time = 0.019s
+12:57:32.141 [info] Kernel acknowledged execution of cell 7 @ 1701176252141
+12:57:32.147 [info] End cell 7 execution @ 1701176252147, started @ 1701176252141, elapsed time = 0.006s
+12:57:32.154 [info] Kernel acknowledged execution of cell 9 @ 1701176252154
+12:57:32.159 [info] End cell 9 execution @ 1701176252159, started @ 1701176252154, elapsed time = 0.005s
+12:57:32.166 [info] Kernel acknowledged execution of cell 10 @ 1701176252166
+12:57:32.171 [info] End cell 10 execution @ 1701176252171, started @ 1701176252166, elapsed time = 0.005s
+12:57:32.179 [info] Kernel acknowledged execution of cell 12 @ 1701176252179
+12:57:32.188 [info] End cell 12 execution @ 1701176252187, started @ 1701176252179, elapsed time = 0.008s
+12:57:32.202 [info] Kernel acknowledged execution of cell 13 @ 1701176252202
+12:57:32.215 [info] End cell 13 execution @ 1701176252215, started @ 1701176252202, elapsed time = 0.013s
+12:57:32.221 [info] Kernel acknowledged execution of cell 15 @ 1701176252221
+12:57:32.251 [info] End cell 15 execution @ 1701176252251, started @ 1701176252221, elapsed time = 0.03s
+12:57:32.255 [info] Kernel acknowledged execution of cell 17 @ 1701176252254
+12:57:32.260 [info] End cell 17 execution @ 1701176252260, started @ 1701176252254, elapsed time = 0.006s
+12:57:32.265 [info] Kernel acknowledged execution of cell 18 @ 1701176252265
+12:57:32.268 [info] End cell 18 execution @ 1701176252268, started @ 1701176252265, elapsed time = 0.003s
+12:57:32.277 [info] Kernel acknowledged execution of cell 19 @ 1701176252277
+12:57:32.293 [info] End cell 19 execution @ 1701176252293, started @ 1701176252277, elapsed time = 0.016s
+12:57:32.305 [info] Kernel acknowledged execution of cell 21 @ 1701176252305
+12:57:32.598 [info] End cell 21 execution @ 1701176252598, started @ 1701176252305, elapsed time = 0.293s
+12:57:32.616 [info] Kernel acknowledged execution of cell 22 @ 1701176252616
+12:57:32.791 [info] End cell 22 execution @ 1701176252791, started @ 1701176252616, elapsed time = 0.175s
+12:57:32.799 [info] Kernel acknowledged execution of cell 23 @ 1701176252798
+12:57:33.128 [info] End cell 23 execution @ 1701176253128, started @ 1701176252798, elapsed time = 0.33s
+12:57:33.138 [info] Kernel acknowledged execution of cell 24 @ 1701176253138
+12:57:33.477 [info] End cell 24 execution @ 1701176253476, started @ 1701176253138, elapsed time = 0.338s
+12:57:33.484 [info] Kernel acknowledged execution of cell 25 @ 1701176253484
+12:57:33.805 [info] End cell 25 execution @ 1701176253805, started @ 1701176253484, elapsed time = 0.321s
+12:57:33.813 [info] Kernel acknowledged execution of cell 27 @ 1701176253813
+12:57:34.388 [info] End cell 27 execution @ 1701176254387, started @ 1701176253813, elapsed time = 0.574s
+12:57:34.396 [info] Kernel acknowledged execution of cell 28 @ 1701176254396
+12:57:34.546 [info] End cell 28 execution @ 1701176254546, started @ 1701176254396, elapsed time = 0.15s
+12:57:34.556 [info] Kernel acknowledged execution of cell 29 @ 1701176254556
+12:57:34.566 [info] End cell 29 execution @ 1701176254565, started @ 1701176254556, elapsed time = 0.009s
+12:57:34.575 [info] Kernel acknowledged execution of cell 30 @ 1701176254575
+12:57:34.583 [info] End cell 30 execution @ 1701176254583, started @ 1701176254575, elapsed time = 0.008s
+12:57:34.598 [info] Kernel acknowledged execution of cell 31 @ 1701176254598
+12:57:34.604 [info] End cell 31 execution @ 1701176254603, started @ 1701176254598, elapsed time = 0.005s
+12:57:34.611 [info] Kernel acknowledged execution of cell 33 @ 1701176254611
+12:57:35.074 [info] End cell 33 execution @ 1701176255073, started @ 1701176254611, elapsed time = 0.462s
+12:57:35.084 [info] Kernel acknowledged execution of cell 35 @ 1701176255084
+12:57:36.910 [info] End cell 35 execution @ 1701176256909, started @ 1701176255084, elapsed time = 1.825s
+12:57:36.917 [info] Kernel acknowledged execution of cell 36 @ 1701176256917
+12:57:36.926 [info] End cell 36 execution @ 1701176256926, started @ 1701176256917, elapsed time = 0.009s
+12:57:36.934 [info] Kernel acknowledged execution of cell 39 @ 1701176256934
+12:57:36.936 [info] End cell 39 execution @ 1701176256936, started @ 1701176256934, elapsed time = 0.002s
+12:57:36.945 [info] Kernel acknowledged execution of cell 41 @ 1701176256944
+12:57:36.951 [info] End cell 41 execution @ 1701176256951, started @ 1701176256944, elapsed time = 0.007s
+12:57:36.959 [info] Kernel acknowledged execution of cell 43 @ 1701176256959
+12:57:36.965 [info] End cell 43 execution @ 1701176256964, started @ 1701176256959, elapsed time = 0.005s
+12:57:36.974 [info] Kernel acknowledged execution of cell 44 @ 1701176256974
+12:57:36.979 [info] End cell 44 execution @ 1701176256979, started @ 1701176256974, elapsed time = 0.005s
+12:57:36.989 [info] Kernel acknowledged execution of cell 45 @ 1701176256989
+12:57:36.994 [info] End cell 45 execution @ 1701176256994, started @ 1701176256989, elapsed time = 0.005s
+12:57:37.002 [info] Kernel acknowledged execution of cell 46 @ 1701176257002
+12:57:37.008 [info] End cell 46 execution @ 1701176257008, started @ 1701176257002, elapsed time = 0.006s
+12:57:37.013 [info] Kernel acknowledged execution of cell 47 @ 1701176257012
+12:57:37.021 [info] End cell 47 execution @ 1701176257021, started @ 1701176257012, elapsed time = 0.009s
+12:57:37.028 [info] Kernel acknowledged execution of cell 48 @ 1701176257028
+12:57:37.034 [info] End cell 48 execution @ 1701176257034, started @ 1701176257028, elapsed time = 0.006s
+12:57:37.037 [info] Kernel acknowledged execution of cell 49 @ 1701176257037
+12:57:37.048 [info] End cell 49 execution @ 1701176257047, started @ 1701176257037, elapsed time = 0.01s
+12:57:37.059 [info] Kernel acknowledged execution of cell 50 @ 1701176257059
+12:57:37.064 [info] End cell 50 execution @ 1701176257064, started @ 1701176257059, elapsed time = 0.005s
+12:57:37.068 [info] Kernel acknowledged execution of cell 52 @ 1701176257068
+12:57:37.478 [info] End cell 52 execution @ 1701176257477, started @ 1701176257068, elapsed time = 0.409s
+12:57:37.487 [info] Kernel acknowledged execution of cell 53 @ 1701176257487
+12:57:37.497 [info] End cell 53 execution @ 1701176257497, started @ 1701176257487, elapsed time = 0.01s
+12:57:37.505 [info] Kernel acknowledged execution of cell 55 @ 1701176257505
+12:57:37.516 [info] End cell 55 execution @ 1701176257516, started @ 1701176257505, elapsed time = 0.011s
+12:57:37.517 [info] End cell 56 execution @ undefined, started @ undefined, elapsed time = 0s
+12:57:37.522 [info] Kernel acknowledged execution of cell 57 @ 1701176257522
+12:57:37.526 [info] End cell 57 execution @ 1701176257526, started @ 1701176257522, elapsed time = 0.004s
+12:57:37.527 [info] End cell 59 execution @ undefined, started @ undefined, elapsed time = 0s
+12:57:37.537 [info] Kernel acknowledged execution of cell 60 @ 1701176257537
+12:57:37.558 [info] End cell 60 execution @ 1701176257558, started @ 1701176257537, elapsed time = 0.021s
+12:57:37.568 [info] Kernel acknowledged execution of cell 62 @ 1701176257568
+12:57:37.581 [info] End cell 62 execution @ 1701176257580, started @ 1701176257568, elapsed time = 0.012s
+12:57:37.584 [info] Kernel acknowledged execution of cell 63 @ 1701176257583
+12:57:37.590 [info] End cell 63 execution @ 1701176257589, started @ 1701176257583, elapsed time = 0.006s
+12:57:37.598 [info] Kernel acknowledged execution of cell 64 @ 1701176257598
+12:57:37.602 [info] End cell 64 execution @ 1701176257602, started @ 1701176257598, elapsed time = 0.004s
+12:57:37.613 [info] Kernel acknowledged execution of cell 65 @ 1701176257613
+12:57:37.710 [info] End cell 65 execution @ 1701176257710, started @ 1701176257613, elapsed time = 0.097s
+12:57:37.711 [warn] Cancel all remaining cells due to cancellation or failure in execution
+12:57:37.711 [info] End cell 66 execution @ undefined, started @ undefined, elapsed time = 0s
+12:57:37.711 [info] End cell 67 execution @ undefined, started @ undefined, elapsed time = 0s
+12:57:37.711 [info] End cell 68 execution @ undefined, started @ undefined, elapsed time = 0s
+12:57:37.711 [info] End cell 69 execution @ undefined, started @ undefined, elapsed time = 0s
+12:57:37.711 [info] End cell 70 execution @ undefined, started @ undefined, elapsed time = 0s
+12:57:37.711 [info] End cell 71 execution @ undefined, started @ undefined, elapsed time = 0s
+12:57:37.711 [info] End cell 72 execution @ undefined, started @ undefined, elapsed time = 0s
+12:57:37.712 [info] End cell 73 execution @ undefined, started @ undefined, elapsed time = 0s
+12:57:37.712 [info] End cell 75 execution @ undefined, started @ undefined, elapsed time = 0s
+12:58:17.478 [info] Handle Execution of Cells 1,2,3,5,7,9,10,12,13,15,17,18,19,21,22,23,24,25,27,28,29,30,31,33,35,36,39,41,43,44,45,46,47,48,49,50,52,53,55,56,57,59,60,62,63,64,65,66,67,68,69,70,71,72,73,75 for ~/sourceCode/code/A2Carp.ipynb
+12:58:17.501 [info] Kernel acknowledged execution of cell 1 @ 1701176297501
+12:58:17.505 [info] End cell 1 execution @ 1701176297505, started @ 1701176297501, elapsed time = 0.004s
+12:58:17.512 [info] Kernel acknowledged execution of cell 2 @ 1701176297512
+12:58:17.517 [info] End cell 2 execution @ 1701176297516, started @ 1701176297512, elapsed time = 0.004s
+12:58:17.517 [info] End cell 3 execution @ undefined, started @ undefined, elapsed time = 0s
+12:58:17.521 [info] Kernel acknowledged execution of cell 5 @ 1701176297521
+12:58:17.541 [info] End cell 5 execution @ 1701176297541, started @ 1701176297521, elapsed time = 0.02s
+12:58:17.545 [info] Kernel acknowledged execution of cell 7 @ 1701176297545
+12:58:17.562 [info] End cell 7 execution @ 1701176297562, started @ 1701176297545, elapsed time = 0.017s
+12:58:17.568 [info] Kernel acknowledged execution of cell 9 @ 1701176297568
+12:58:17.573 [info] End cell 9 execution @ 1701176297573, started @ 1701176297568, elapsed time = 0.005s
+12:58:17.579 [info] Kernel acknowledged execution of cell 10 @ 1701176297579
+12:58:17.584 [info] End cell 10 execution @ 1701176297584, started @ 1701176297579, elapsed time = 0.005s
+12:58:17.587 [info] Kernel acknowledged execution of cell 12 @ 1701176297587
+12:58:17.597 [info] End cell 12 execution @ 1701176297596, started @ 1701176297587, elapsed time = 0.009s
+12:58:17.602 [info] Kernel acknowledged execution of cell 13 @ 1701176297602
+12:58:17.616 [info] End cell 13 execution @ 1701176297616, started @ 1701176297602, elapsed time = 0.014s
+12:58:17.621 [info] Kernel acknowledged execution of cell 15 @ 1701176297621
+12:58:17.652 [info] End cell 15 execution @ 1701176297652, started @ 1701176297621, elapsed time = 0.031s
+12:58:17.658 [info] Kernel acknowledged execution of cell 17 @ 1701176297658
+12:58:17.661 [info] End cell 17 execution @ 1701176297661, started @ 1701176297658, elapsed time = 0.003s
+12:58:17.666 [info] Kernel acknowledged execution of cell 18 @ 1701176297666
+12:58:17.669 [info] End cell 18 execution @ 1701176297669, started @ 1701176297666, elapsed time = 0.003s
+12:58:17.674 [info] Kernel acknowledged execution of cell 19 @ 1701176297674
+12:58:17.689 [info] End cell 19 execution @ 1701176297689, started @ 1701176297674, elapsed time = 0.015s
+12:58:17.701 [info] Kernel acknowledged execution of cell 21 @ 1701176297701
+12:58:18.028 [info] End cell 21 execution @ 1701176298027, started @ 1701176297701, elapsed time = 0.326s
+12:58:18.037 [info] Kernel acknowledged execution of cell 22 @ 1701176298037
+12:58:18.205 [info] End cell 22 execution @ 1701176298205, started @ 1701176298037, elapsed time = 0.168s
+12:58:18.215 [info] Kernel acknowledged execution of cell 23 @ 1701176298214
+12:58:18.527 [info] End cell 23 execution @ 1701176298527, started @ 1701176298214, elapsed time = 0.313s
+12:58:18.535 [info] Kernel acknowledged execution of cell 24 @ 1701176298534
+12:58:18.908 [info] End cell 24 execution @ 1701176298908, started @ 1701176298534, elapsed time = 0.374s
+12:58:18.915 [info] Kernel acknowledged execution of cell 25 @ 1701176298915
+12:58:19.250 [info] End cell 25 execution @ 1701176299250, started @ 1701176298915, elapsed time = 0.335s
+12:58:19.257 [info] Kernel acknowledged execution of cell 27 @ 1701176299257
+12:58:19.450 [info] End cell 27 execution @ 1701176299450, started @ 1701176299257, elapsed time = 0.193s
+12:58:19.459 [info] Kernel acknowledged execution of cell 28 @ 1701176299459
+12:58:19.612 [info] End cell 28 execution @ 1701176299612, started @ 1701176299459, elapsed time = 0.153s
+12:58:19.624 [info] Kernel acknowledged execution of cell 29 @ 1701176299624
+12:58:19.638 [info] End cell 29 execution @ 1701176299638, started @ 1701176299624, elapsed time = 0.014s
+12:58:19.653 [info] Kernel acknowledged execution of cell 30 @ 1701176299653
+12:58:19.658 [info] End cell 30 execution @ 1701176299658, started @ 1701176299653, elapsed time = 0.005s
+12:58:19.663 [info] Kernel acknowledged execution of cell 31 @ 1701176299663
+12:58:19.684 [info] End cell 31 execution @ 1701176299684, started @ 1701176299663, elapsed time = 0.021s
+12:58:19.689 [info] Kernel acknowledged execution of cell 33 @ 1701176299688
+12:58:20.161 [info] End cell 33 execution @ 1701176300161, started @ 1701176299688, elapsed time = 0.473s
+12:58:20.166 [info] Kernel acknowledged execution of cell 35 @ 1701176300166
+12:58:21.940 [info] End cell 35 execution @ 1701176301940, started @ 1701176300166, elapsed time = 1.774s
+12:58:21.950 [info] Kernel acknowledged execution of cell 36 @ 1701176301949
+12:58:21.958 [info] End cell 36 execution @ 1701176301958, started @ 1701176301949, elapsed time = 0.009s
+12:58:21.965 [info] Kernel acknowledged execution of cell 39 @ 1701176301965
+12:58:21.970 [info] End cell 39 execution @ 1701176301970, started @ 1701176301965, elapsed time = 0.005s
+12:58:21.977 [info] Kernel acknowledged execution of cell 41 @ 1701176301977
+12:58:21.983 [info] End cell 41 execution @ 1701176301983, started @ 1701176301977, elapsed time = 0.006s
+12:58:21.991 [info] Kernel acknowledged execution of cell 43 @ 1701176301991
+12:58:21.996 [info] End cell 43 execution @ 1701176301995, started @ 1701176301991, elapsed time = 0.004s
+12:58:22.006 [info] Kernel acknowledged execution of cell 44 @ 1701176302006
+12:58:22.011 [info] End cell 44 execution @ 1701176302011, started @ 1701176302006, elapsed time = 0.005s
+12:58:22.021 [info] Kernel acknowledged execution of cell 45 @ 1701176302021
+12:58:22.026 [info] End cell 45 execution @ 1701176302026, started @ 1701176302021, elapsed time = 0.005s
+12:58:22.034 [info] Kernel acknowledged execution of cell 46 @ 1701176302034
+12:58:22.038 [info] End cell 46 execution @ 1701176302038, started @ 1701176302034, elapsed time = 0.004s
+12:58:22.044 [info] Kernel acknowledged execution of cell 47 @ 1701176302044
+12:58:22.050 [info] End cell 47 execution @ 1701176302049, started @ 1701176302044, elapsed time = 0.005s
+12:58:22.057 [info] Kernel acknowledged execution of cell 48 @ 1701176302057
+12:58:22.063 [info] End cell 48 execution @ 1701176302063, started @ 1701176302057, elapsed time = 0.006s
+12:58:22.072 [info] Kernel acknowledged execution of cell 49 @ 1701176302071
+12:58:22.077 [info] End cell 49 execution @ 1701176302077, started @ 1701176302071, elapsed time = 0.006s
+12:58:22.085 [info] Kernel acknowledged execution of cell 50 @ 1701176302085
+12:58:22.094 [info] End cell 50 execution @ 1701176302094, started @ 1701176302085, elapsed time = 0.009s
+12:58:22.107 [info] Kernel acknowledged execution of cell 52 @ 1701176302106
+12:58:22.459 [info] End cell 52 execution @ 1701176302458, started @ 1701176302106, elapsed time = 0.352s
+12:58:22.463 [info] Kernel acknowledged execution of cell 53 @ 1701176302462
+12:58:22.475 [info] End cell 53 execution @ 1701176302475, started @ 1701176302462, elapsed time = 0.013s
+12:58:22.483 [info] Kernel acknowledged execution of cell 55 @ 1701176302483
+12:58:22.494 [info] End cell 55 execution @ 1701176302494, started @ 1701176302483, elapsed time = 0.011s
+12:58:22.495 [info] End cell 56 execution @ undefined, started @ undefined, elapsed time = 0s
+12:58:22.503 [info] Kernel acknowledged execution of cell 57 @ 1701176302503
+12:58:22.507 [info] End cell 57 execution @ 1701176302507, started @ 1701176302503, elapsed time = 0.004s
+12:58:22.508 [info] End cell 59 execution @ undefined, started @ undefined, elapsed time = 0s
+12:58:22.529 [info] Kernel acknowledged execution of cell 60 @ 1701176302528
+12:58:22.541 [info] End cell 60 execution @ 1701176302541, started @ 1701176302528, elapsed time = 0.013s
+12:58:22.546 [info] Kernel acknowledged execution of cell 62 @ 1701176302546
+12:58:22.566 [info] End cell 62 execution @ 1701176302566, started @ 1701176302546, elapsed time = 0.02s
+12:58:22.572 [info] Kernel acknowledged execution of cell 63 @ 1701176302572
+12:58:22.576 [info] End cell 63 execution @ 1701176302575, started @ 1701176302572, elapsed time = 0.003s
+12:58:22.584 [info] Kernel acknowledged execution of cell 64 @ 1701176302583
+12:58:22.588 [info] End cell 64 execution @ 1701176302587, started @ 1701176302583, elapsed time = 0.004s
+12:58:22.597 [info] Kernel acknowledged execution of cell 65 @ 1701176302597
+16:19:32.823 [info] Interrupt kernel execution
+16:19:32.824 [info] End cell 64 execution @ undefined, started @ undefined, elapsed time = 0s
+16:19:32.824 [info] End cell 65 execution @ undefined, started @ undefined, elapsed time = 0s
+16:19:32.824 [info] End cell 66 execution @ undefined, started @ undefined, elapsed time = 0s
+16:19:32.824 [info] End cell 67 execution @ undefined, started @ undefined, elapsed time = 0s
+16:19:32.824 [info] End cell 68 execution @ undefined, started @ undefined, elapsed time = 0s
+16:19:32.824 [info] End cell 69 execution @ undefined, started @ undefined, elapsed time = 0s
+16:19:32.824 [info] End cell 70 execution @ undefined, started @ undefined, elapsed time = 0s
+16:19:32.824 [info] End cell 71 execution @ undefined, started @ undefined, elapsed time = 0s
+16:19:32.824 [info] End cell 73 execution @ undefined, started @ undefined, elapsed time = 0s
+16:19:32.825 [info] Interrupt requested ~/sourceCode/code/A2Carp.ipynb
+16:19:32.827 [info] Interrupt kernel execution
+16:19:32.827 [info] Interrupting kernel: python3
+16:19:32.828 [info] Interrupting kernel via SIGINT
+16:19:35.515 [info] End cell 63 execution @ 1701188375514, started @ 1701176302597, elapsed time = 12072.917s
+16:19:35.515 [warn] Cancel all remaining cells due to cancellation or failure in execution
+16:19:35.516 [info] Interrupt requested & sent for ~/sourceCode/code/A2Carp.ipynb in notebookEditor.
+16:49:04.515 [info] Disposing HostJupyterExecution
+16:49:04.515 [info] Dispose Kernel '~/sourceCode/code/A2Carp.ipynb' associated with '~/sourceCode/code/A2Carp.ipynb'
+16:49:04.517 [info] Dispose Kernel process 618.
+16:49:04.539 [info] Disposing HostJupyterExecution

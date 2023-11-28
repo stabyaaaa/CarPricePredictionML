@@ -1,0 +1,63 @@
+{
+	"name": "pip-installer",
+	"displayName": "pip installer",
+	"description": "Extension gets all missing imports in python file and installs them using pip",
+	"version": "0.0.4",
+	"publisher": "PeterSteiner",
+	"icon": "images/icon.png",
+	"engines": {
+		"vscode": "^1.74.0"
+	},
+	"categories": [
+		"Other"
+	],
+	"activationEvents": [
+		"onLanguage:python",
+		"onCommand:pip-installer.getMissingImports"
+	],
+	"main": "./out/extension.js",
+	"contributes": {
+		"commands": [
+			{
+				"command": "pip-installer.getMissingImports",
+				"title": "Python: Install Missing Imports"
+			}
+		]
+	},
+	"scripts": {
+		"vscode:prepublish": "npm run compile",
+		"compile": "tsc -p ./",
+		"watch": "tsc -watch -p ./",
+		"pretest": "npm run compile && npm run lint",
+		"lint": "eslint src --ext ts",
+		"test": "node ./out/test/runTest.js"
+	},
+	"devDependencies": {
+		"@types/glob": "^8.0.0",
+		"@types/mocha": "^10.0.1",
+		"@types/node": "16.x",
+		"@types/vscode": "^1.74.0",
+		"@typescript-eslint/eslint-plugin": "^5.45.0",
+		"@typescript-eslint/parser": "^5.45.0",
+		"@vscode/test-electron": "^2.2.0",
+		"eslint": "^8.28.0",
+		"glob": "^8.0.3",
+		"mocha": "^10.1.0",
+		"typescript": "^4.9.3"
+	},
+	"dependencies": {
+		"vscode-languageclient": "^8.0.2",
+		"vscode-languageserver": "^8.0.2"
+	},
+	"__metadata": {
+		"id": "5971d76c-8683-479a-8aec-057456494e79",
+		"publisherId": "13ff95bb-8a2c-42d4-b761-85d9f6937735",
+		"publisherDisplayName": "Peter Steiner",
+		"targetPlatform": "undefined",
+		"isApplicationScoped": true,
+		"updated": false,
+		"isPreReleaseVersion": false,
+		"installedTimestamp": 1701175698144,
+		"preRelease": false
+	}
+}

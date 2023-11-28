@@ -1,0 +1,212 @@
+2023-11-28 12:48:15.443 [info] Log level: Info
+2023-11-28 12:48:15.443 [info] Validating found git in: "git"
+2023-11-28 12:48:15.444 [info] Using git "2.39.2" from "git"
+2023-11-28 12:48:15.444 [info] > git rev-parse --show-toplevel [93ms]
+2023-11-28 12:48:15.444 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-11-28 12:48:15.444 [info] > git rev-parse --show-toplevel [4ms]
+2023-11-28 12:48:15.444 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-11-28 12:48:15.444 [info] > git rev-parse --show-toplevel [8ms]
+2023-11-28 12:48:15.444 [info] fatal: not a git repository (or any parent up to mount point /root)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-11-28 12:48:15.453 [info] > git rev-parse --show-toplevel [1ms]
+2023-11-28 12:48:15.454 [info] fatal: not a git repository (or any parent up to mount point /root)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-11-28 12:48:19.340 [info] > git rev-parse --show-toplevel [8ms]
+2023-11-28 12:48:19.341 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-11-28 12:48:19.368 [info] > git rev-parse --show-toplevel [10ms]
+2023-11-28 12:48:19.369 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-11-28 12:48:25.835 [info] > git rev-parse --show-toplevel [2ms]
+2023-11-28 12:48:25.836 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-11-28 12:49:57.223 [info] > git rev-parse --show-toplevel [5ms]
+2023-11-28 12:49:57.228 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-11-28 12:49:57.251 [info] > git rev-parse --show-toplevel [2ms]
+2023-11-28 12:49:57.251 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-11-28 12:50:27.498 [info] > git rev-parse --show-toplevel [9ms]
+2023-11-28 12:50:27.498 [info] fatal: not a git repository (or any parent up to mount point /root)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-11-28 12:51:32.809 [info] > git rev-parse --show-toplevel [3ms]
+2023-11-28 12:51:32.809 [info] fatal: not a git repository (or any parent up to mount point /root)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-11-28 12:56:35.587 [info] > git rev-parse --show-toplevel [1ms]
+2023-11-28 12:56:35.588 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-11-28 12:56:36.196 [info] > git init -b main [4ms]
+2023-11-28 12:56:36.204 [info] > git rev-parse --show-toplevel [1ms]
+2023-11-28 12:56:36.213 [info] > git rev-parse --git-dir --git-common-dir [1ms]
+2023-11-28 12:56:36.223 [info] Open repository: /root
+2023-11-28 12:56:36.254 [info] > git config --get commit.template [10ms]
+2023-11-28 12:56:36.255 [info] No remotes found in the git config file.
+2023-11-28 12:56:36.255 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2023-11-28 12:56:36.278 [info] > git status -z -uall [15ms]
+2023-11-28 12:56:36.295 [info] > git config --get commit.template [2ms]
+2023-11-28 12:56:36.303 [info] No remotes found in the git config file.
+2023-11-28 12:56:36.304 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2023-11-28 12:56:36.346 [info] > git status -z -uall [33ms]
+2023-11-28 12:56:36.409 [info] > git add -A -- . [177ms]
+2023-11-28 12:56:36.431 [info] > git -c user.useConfigOnly=true commit --quiet --allow-empty-message --file - --allow-empty-message [12ms]
+2023-11-28 12:56:36.444 [info] > git config --get commit.template [1ms]
+2023-11-28 12:56:36.456 [info] > git config --get commit.template [1ms]
+2023-11-28 12:56:36.464 [info] No remotes found in the git config file.
+2023-11-28 12:56:36.464 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2023-11-28 12:56:36.490 [info] > git status -z -uall [19ms]
+2023-11-28 12:56:36.596 [info] > git config --get commit.template [1ms]
+2023-11-28 12:56:36.604 [info] No remotes found in the git config file.
+2023-11-28 12:56:36.605 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2023-11-28 12:56:36.632 [info] > git status -z -uall [20ms]
+2023-11-28 12:56:36.645 [info] > git remote add origin https://github.com/stabyaaaa/CarPricePredictionMLL.git [2ms]
+2023-11-28 12:56:36.665 [info] > git config --get commit.template [10ms]
+2023-11-28 12:56:36.666 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2023-11-28 12:56:36.701 [info] > git status -z -uall [26ms]
+2023-11-28 12:56:36.935 [info] > git check-ignore -v -z --stdin [3ms]
+2023-11-28 12:56:38.782 [info] > git check-ignore -v -z --stdin [3ms]
+2023-11-28 12:56:40.556 [info] > git push -u origin main [3840ms]
+2023-11-28 12:56:40.556 [info] To https://github.com/stabyaaaa/CarPricePredictionMLL.git
+ * [new branch]      main -> main
+2023-11-28 12:56:40.568 [info] > git config --get commit.template [5ms]
+2023-11-28 12:56:40.569 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2023-11-28 12:56:40.591 [info] > git status -z -uall [17ms]
+2023-11-28 12:56:41.651 [info] > git config --get commit.template [4ms]
+2023-11-28 12:56:41.651 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2023-11-28 12:56:41.673 [info] > git status -z -uall [17ms]
+2023-11-28 12:56:56.720 [info] > git check-ignore -v -z --stdin [1ms]
+2023-11-28 12:57:24.659 [info] > git config --get commit.template [10ms]
+2023-11-28 12:57:24.660 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2023-11-28 12:57:24.696 [info] > git status -z -uall [24ms]
+2023-11-28 12:57:29.714 [info] > git config --get commit.template [7ms]
+2023-11-28 12:57:29.715 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2023-11-28 12:57:29.737 [info] > git status -z -uall [17ms]
+2023-11-28 12:57:36.232 [info] > git config --get commit.template [1ms]
+2023-11-28 12:57:36.242 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2023-11-28 12:57:36.269 [info] > git status -z -uall [19ms]
+2023-11-28 12:57:41.287 [info] > git config --get commit.template [8ms]
+2023-11-28 12:57:41.288 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2023-11-28 12:57:41.312 [info] > git status -z -uall [18ms]
+2023-11-28 12:58:21.331 [info] > git config --get commit.template [10ms]
+2023-11-28 12:58:21.331 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2023-11-28 12:58:21.371 [info] > git status -z -uall [31ms]
+2023-11-28 12:58:26.403 [info] > git config --get commit.template [12ms]
+2023-11-28 12:58:26.404 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2023-11-28 12:58:26.639 [info] > git status -z -uall [225ms]
+2023-11-28 12:58:28.425 [info] > git check-ignore -v -z --stdin [1ms]
+2023-11-28 12:59:13.634 [info] > git check-ignore -v -z --stdin [71ms]
+2023-11-28 12:59:54.929 [info] > git add -A -- . [8846ms]
+2023-11-28 12:59:58.392 [info] > git -c user.useConfigOnly=true commit --quiet --allow-empty-message --file - [3453ms]
+2023-11-28 12:59:58.403 [info] > git config --get commit.template [1ms]
+2023-11-28 12:59:58.434 [info] > git config --get commit.template [14ms]
+2023-11-28 12:59:58.435 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2023-11-28 13:00:04.529 [info] > git status -z -uall [6075ms]
+2023-11-28 13:00:05.542 [info] > git check-ignore -v -z --stdin [108ms]
+2023-11-28 13:00:06.351 [info] > git push origin main:main [1783ms]
+2023-11-28 13:00:06.351 [info] To https://github.com/stabyaaaa/CarPricePredictionMLL.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/stabyaaaa/CarPricePredictionMLL.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+2023-11-28 13:00:06.377 [info] > git config --get commit.template [11ms]
+2023-11-28 13:00:06.378 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2023-11-28 13:00:10.350 [info] > git check-ignore -v -z --stdin [1ms]
+2023-11-28 13:00:13.067 [info] > git status -z -uall [6677ms]
+2023-11-28 13:00:13.262 [info] > git config --get commit.template [16ms]
+2023-11-28 13:00:13.263 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2023-11-28 13:00:18.225 [info] > git status -z -uall [4949ms]
+2023-11-28 13:01:29.444 [info] > git config --get commit.template [16ms]
+2023-11-28 13:01:29.445 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2023-11-28 13:01:37.971 [info] > git status -z -uall [8512ms]
+2023-11-28 14:28:55.590 [info] > git config --get commit.template [19ms]
+2023-11-28 14:28:55.592 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2023-11-28 14:29:23.458 [info] > git check-ignore -v -z --stdin [166ms]
+2023-11-28 14:30:20.357 [info] > git status -z -uall [84749ms] (cancelled)
+2023-11-28 14:32:49.891 [info] > git add -A -- . [201191ms]
+2023-11-28 14:33:33.330 [info] > git -c user.useConfigOnly=true commit --quiet --allow-empty-message --file - [43430ms]
+2023-11-28 14:33:33.343 [info] > git config --get commit.template [1ms]
+2023-11-28 14:33:33.372 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2023-11-28 14:33:33.374 [info] > git config --get commit.template [17ms]
+2023-11-28 14:34:55.867 [info] > git status -z -uall [82475ms]
+2023-11-28 14:34:57.667 [info] > git push origin main:main [1737ms]
+2023-11-28 14:34:57.667 [info] To https://github.com/stabyaaaa/CarPricePredictionMLL.git
+ ! [rejected]          main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/stabyaaaa/CarPricePredictionMLL.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+2023-11-28 14:34:57.697 [info] > git config --get commit.template [12ms]
+2023-11-28 14:34:57.698 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2023-11-28 14:36:05.937 [info] > git status -z -uall [68227ms]
+2023-11-28 14:36:06.263 [info] > git config --get commit.template [29ms]
+2023-11-28 14:36:06.287 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [25ms]
+2023-11-28 14:37:22.817 [info] > git status -z -uall [76516ms]
+2023-11-28 14:37:24.162 [info] > git config --get commit.template [13ms]
+2023-11-28 14:37:24.162 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2023-11-28 14:38:11.409 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [4ms]
+2023-11-28 14:38:17.141 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2023-11-28 14:38:52.067 [info] > git status -z -uall [87892ms]
+2023-11-28 14:39:57.238 [info] > git config --get commit.template [18ms]
+2023-11-28 14:39:57.240 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2023-11-28 14:41:17.651 [info] > git status -z -uall [80395ms]
+2023-11-28 14:43:34.300 [info] > git config --get commit.template [1ms]
+2023-11-28 14:43:34.328 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [5ms]
+2023-11-28 14:44:10.214 [info] > git check-ignore -v -z --stdin [114ms]
+2023-11-28 14:44:10.274 [info] > git show --textconv :sourceCode/code/templates/index.html [25ms]
+2023-11-28 14:44:10.282 [info] > git ls-files --stage -- /root/sourceCode/code/templates/index.html [10ms]
+2023-11-28 14:44:43.860 [info] > git status -z -uall [69518ms]
+2023-11-28 14:46:10.861 [info] > git config --get commit.template [1ms]
+2023-11-28 14:46:10.875 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2023-11-28 14:46:11.715 [info] > git check-ignore -v -z --stdin [43ms]
+2023-11-28 14:46:13.331 [info] > git show --textconv :sourceCode/code/main.py [35ms]
+2023-11-28 14:46:13.351 [info] > git ls-files --stage -- /root/sourceCode/code/main.py [21ms]
+2023-11-28 14:46:15.578 [info] > git show --textconv :sourceCode/code/templates/index.html [31ms]
+2023-11-28 14:46:15.584 [info] > git ls-files --stage -- /root/sourceCode/code/templates/index.html [9ms]
+2023-11-28 14:46:16.739 [info] > git show --textconv :sourceCode/code/templates/version2.html [36ms]
+2023-11-28 14:46:16.745 [info] > git ls-files --stage -- /root/sourceCode/code/templates/version2.html [14ms]
+2023-11-28 14:46:17.649 [info] > git show --textconv :sourceCode/code/main.py [40ms]
+2023-11-28 14:46:17.660 [info] > git ls-files --stage -- /root/sourceCode/code/main.py [16ms]
+2023-11-28 14:47:22.524 [info] > git status -z -uall [71636ms]
+2023-11-28 14:47:39.990 [info] > git config --get commit.template [15ms]
+2023-11-28 14:47:39.991 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2023-11-28 14:47:42.225 [info] > git check-ignore -v -z --stdin [42ms]
+2023-11-28 14:48:15.992 [info] > git check-ignore -v -z --stdin [17ms]
+2023-11-28 14:48:51.726 [info] > git status -z -uall [71714ms]
+2023-11-28 15:18:18.661 [info] > git config --get commit.template [27ms]
+2023-11-28 15:18:18.663 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2023-11-28 15:20:34.674 [info] > git status -z -uall [135991ms]
+2023-11-28 15:21:10.425 [info] > git add -A -- . [157657ms]
+2023-11-28 15:21:58.981 [info] > git -c user.useConfigOnly=true commit --quiet --allow-empty-message --file - [48539ms]
+2023-11-28 15:21:59.010 [info] > git config --get commit.template [1ms]
+2023-11-28 15:21:59.051 [info] > git config --get commit.template [19ms]
+2023-11-28 15:21:59.053 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2023-11-28 15:24:08.061 [info] > git status -z -uall [128983ms]
+2023-11-28 15:24:10.884 [info] > git push origin main:main [2734ms]
+2023-11-28 15:24:10.885 [info] To https://github.com/stabyaaaa/CarPricePredictionMLL.git
+ ! [rejected]          main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/stabyaaaa/CarPricePredictionMLL.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+2023-11-28 15:24:10.930 [info] > git config --get commit.template [21ms]
+2023-11-28 15:24:10.931 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2023-11-28 15:26:41.091 [info] > git status -z -uall [150137ms]
+2023-11-28 15:26:41.606 [info] > git config --get commit.template [29ms]
+2023-11-28 15:26:41.640 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2023-11-28 15:28:41.661 [info] > git status -z -uall [119990ms]
+2023-11-28 15:29:40.532 [info] > git config --get commit.template [19ms]
+2023-11-28 15:29:40.533 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2023-11-28 15:31:54.721 [info] > git status -z -uall [134171ms]
+2023-11-28 15:32:29.488 [info] > git config --get commit.template [21ms]
+2023-11-28 15:32:29.490 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2023-11-28 15:34:36.113 [info] > git status -z -uall [126601ms]
+2023-11-28 15:40:23.273 [info] > git config --get commit.template [33ms]
+2023-11-28 15:40:23.275 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2023-11-28 15:42:41.571 [info] > git status -z -uall [138270ms]
+2023-11-28 15:47:40.587 [info] > git config --get commit.template [24ms]
+2023-11-28 15:47:40.589 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2023-11-28 15:49:39.731 [info] > git status -z -uall [119127ms] (cancelled)
+2023-11-28 16:18:52.488 [info] > git check-ignore -v -z --stdin [174ms]
+2023-11-28 16:37:33.185 [info] > git check-ignore -v -z --stdin [13ms]
+2023-11-28 16:45:28.930 [info] > git check-ignore -v -z --stdin [21ms]
+2023-11-28 16:45:57.274 [info] > git check-ignore -v -z --stdin [22ms]
