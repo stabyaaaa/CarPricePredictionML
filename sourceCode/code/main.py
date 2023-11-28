@@ -63,9 +63,7 @@ def index():
                            model_names=distinct_model_names, fuel_types=distinct_fuel_types,
                            manufacture_years=distinct_manufacture_years)
     
-# app.py
 
-# ... (existing code)
 
 # Load the second trained model
 second_selling_price_model = pickle.load(open("../model/a1.model", "rb"))
@@ -99,7 +97,6 @@ def second_prediction_page():
                            model_names=distinct_model_names, fuel_types=distinct_fuel_types,
                            manufacture_years=distinct_manufacture_years)
 
-# ... (existing code)
 
 
 # Run the Flask application if this script is executed directly

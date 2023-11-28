@@ -11,3 +11,117 @@
 2023-11-28 12:48:11.838 [info] [127.0.0.1][fe28a4db][ExtensionHostConnection] New connection established.
 2023-11-28 12:48:11.884 [info] [127.0.0.1][fe28a4db][ExtensionHostConnection] <251> Launched Extension Host Process.
 2023-11-28 12:48:11.983 [info] Completed initializing default profile extensions in extensions installation folder. file:///root/.vscode-server/extensions
+2023-11-28 12:48:16.268 [info] Installing extension 'ms-toolsai.jupyter-keymap'...
+2023-11-28 12:48:16.270 [info] Getting Manifest... ms-toolsai.jupyter-keymap
+2023-11-28 12:48:16.287 [info] Installing extension 'etmoffat.pip-packages'...
+2023-11-28 12:48:16.287 [info] Getting Manifest... etmoffat.pip-packages
+2023-11-28 12:48:16.301 [info] Installing extension 'ms-toolsai.vscode-jupyter-cell-tags'...
+2023-11-28 12:48:16.301 [info] Getting Manifest... ms-toolsai.vscode-jupyter-cell-tags
+2023-11-28 12:48:16.306 [info] Installing extension 'ms-toolsai.jupyter-renderers'...
+2023-11-28 12:48:16.307 [info] Getting Manifest... ms-toolsai.jupyter-renderers
+2023-11-28 12:48:16.382 [info] Installing extension 'petersteiner.pip-installer'...
+2023-11-28 12:48:16.383 [info] Getting Manifest... petersteiner.pip-installer
+2023-11-28 12:48:16.391 [info] Installing extension 'ms-toolsai.vscode-jupyter-slideshow'...
+2023-11-28 12:48:16.392 [info] Getting Manifest... ms-toolsai.vscode-jupyter-slideshow
+2023-11-28 12:48:16.432 [info] Installing extension 'ms-python.vscode-pylance'...
+2023-11-28 12:48:16.432 [info] Getting Manifest... ms-python.vscode-pylance
+2023-11-28 12:48:16.541 [info] Installing extension: ms-toolsai.vscode-jupyter-cell-tags
+2023-11-28 12:48:16.592 [info] Installing extension: ms-toolsai.jupyter-renderers
+2023-11-28 12:48:16.596 [info] Installing extension: ms-toolsai.jupyter-keymap
+2023-11-28 12:48:16.601 [info] Installing extension: etmoffat.pip-packages
+2023-11-28 12:48:16.668 [info] Installing extension: petersteiner.pip-installer
+2023-11-28 12:48:16.691 [info] Installing extension: ms-toolsai.vscode-jupyter-slideshow
+2023-11-28 12:48:17.049 [info] Installing extension 'ms-toolsai.jupyter'...
+2023-11-28 12:48:17.050 [info] Getting Manifest... ms-toolsai.jupyter
+2023-11-28 12:48:17.248 [info] Installing extension 'ms-python.python'...
+2023-11-28 12:48:17.248 [info] Getting Manifest... ms-python.python
+2023-11-28 12:48:17.764 [info] Installing extension: ms-toolsai.jupyter
+2023-11-28 12:48:17.775 [info] Installing extension: ms-python.python
+2023-11-28 12:48:17.856 [info] Installing extension: ms-python.vscode-pylance
+2023-11-28 12:48:18.340 [warning] Extension signature verification failed with error 'ENOENT': ms-toolsai.vscode-jupyter-cell-tags
+2023-11-28 12:48:18.383 [warning] Extension signature verification failed with error 'ENOENT': ms-toolsai.jupyter-renderers
+2023-11-28 12:48:18.506 [warning] Extension signature verification failed with error 'ENOENT': ms-toolsai.jupyter-keymap
+2023-11-28 12:48:18.509 [warning] Extension signature verification failed with error 'ENOENT': petersteiner.pip-installer
+2023-11-28 12:48:18.510 [warning] Extension signature verification failed with error 'ENOENT': etmoffat.pip-packages
+2023-11-28 12:48:18.607 [warning] Extension signature verification failed with error 'ENOENT': ms-toolsai.vscode-jupyter-slideshow
+2023-11-28 12:48:18.665 [info] Getting Manifest... ms-toolsai.jupyter-keymap
+2023-11-28 12:48:18.699 [info] Extracted extension to file:///root/.vscode-server/extensions/ms-toolsai.jupyter-keymap-1.1.2: ms-toolsai.jupyter-keymap
+2023-11-28 12:48:18.756 [info] Renamed to /root/.vscode-server/extensions/ms-toolsai.jupyter-keymap-1.1.2
+2023-11-28 12:48:18.808 [info] Extracting extension completed. ms-toolsai.jupyter-keymap
+2023-11-28 12:48:18.862 [info] Extension installed successfully: ms-toolsai.jupyter-keymap
+2023-11-28 12:48:18.868 [info] Extension 'ms-toolsai.jupyter-keymap' v1.1.2 was successfully installed.
+2023-11-28 12:48:18.914 [info] Extracted extension to file:///root/.vscode-server/extensions/ms-toolsai.vscode-jupyter-cell-tags-0.1.8: ms-toolsai.vscode-jupyter-cell-tags
+2023-11-28 12:48:18.955 [info] Extracted extension to file:///root/.vscode-server/extensions/etmoffat.pip-packages-0.4.3: etmoffat.pip-packages
+2023-11-28 12:48:18.957 [info] Renamed to /root/.vscode-server/extensions/ms-toolsai.vscode-jupyter-cell-tags-0.1.8
+2023-11-28 12:48:18.977 [info] Getting Manifest... ms-toolsai.jupyter-renderers
+2023-11-28 12:48:19.002 [info] Renamed to /root/.vscode-server/extensions/etmoffat.pip-packages-0.4.3
+2023-11-28 12:48:19.017 [info] Extracting extension completed. ms-toolsai.vscode-jupyter-cell-tags
+2023-11-28 12:48:19.049 [info] Extracting extension completed. etmoffat.pip-packages
+2023-11-28 12:48:19.072 [info] Extension installed successfully: ms-toolsai.vscode-jupyter-cell-tags
+2023-11-28 12:48:19.073 [info] Extension 'ms-toolsai.vscode-jupyter-cell-tags' v0.1.8 was successfully installed.
+2023-11-28 12:48:19.134 [info] Extension installed successfully: etmoffat.pip-packages
+2023-11-28 12:48:19.136 [info] Extension 'etmoffat.pip-packages' v0.4.3 was successfully installed.
+2023-11-28 12:48:19.216 [info] Extracted extension to file:///root/.vscode-server/extensions/ms-toolsai.vscode-jupyter-slideshow-0.1.5: ms-toolsai.vscode-jupyter-slideshow
+2023-11-28 12:48:19.250 [info] Renamed to /root/.vscode-server/extensions/ms-toolsai.vscode-jupyter-slideshow-0.1.5
+2023-11-28 12:48:19.276 [info] Extracting extension completed. ms-toolsai.vscode-jupyter-slideshow
+2023-11-28 12:48:19.304 [info] Getting Manifest... ms-toolsai.vscode-jupyter-cell-tags
+2023-11-28 12:48:19.332 [info] Extension installed successfully: ms-toolsai.vscode-jupyter-slideshow
+2023-11-28 12:48:19.334 [info] Extension 'ms-toolsai.vscode-jupyter-slideshow' v0.1.5 was successfully installed.
+2023-11-28 12:48:19.692 [info] Getting Manifest... ms-toolsai.vscode-jupyter-slideshow
+2023-11-28 12:48:20.028 [info] Getting Manifest... ms-python.vscode-pylance
+2023-11-28 12:48:20.191 [info] Getting Manifest... ms-python.python
+2023-11-28 12:48:20.194 [info] Waiting for already requested installing extension ms-toolsai.jupyter-renderers ms-toolsai.jupyter
+2023-11-28 12:48:20.446 [info] Extracted extension to file:///root/.vscode-server/extensions/ms-toolsai.jupyter-renderers-1.0.17: ms-toolsai.jupyter-renderers
+2023-11-28 12:48:20.465 [info] Renamed to /root/.vscode-server/extensions/ms-toolsai.jupyter-renderers-1.0.17
+2023-11-28 12:48:20.477 [info] Extracting extension completed. ms-toolsai.jupyter-renderers
+2023-11-28 12:48:20.531 [info] Extension installed successfully: ms-toolsai.jupyter-renderers
+2023-11-28 12:48:20.533 [info] Finished waiting for already requested installing extension ms-toolsai.jupyter-renderers ms-toolsai.jupyter
+2023-11-28 12:48:20.534 [info] Extension 'ms-toolsai.jupyter-renderers' v1.0.17 was successfully installed.
+2023-11-28 12:48:20.728 [info] Waiting for already requested installing extension ms-python.vscode-pylance ms-python.python
+2023-11-28 12:48:20.819 [warning] Extension signature verification failed with error 'ENOENT': ms-toolsai.jupyter
+2023-11-28 12:48:21.413 [warning] Extension signature verification failed with error 'ENOENT': ms-python.python
+2023-11-28 12:48:21.481 [warning] Extension signature verification failed with error 'ENOENT': ms-python.vscode-pylance
+2023-11-28 12:48:24.509 [info] Extracted extension to file:///root/.vscode-server/extensions/petersteiner.pip-installer-0.0.4: petersteiner.pip-installer
+2023-11-28 12:48:24.536 [info] Renamed to /root/.vscode-server/extensions/petersteiner.pip-installer-0.0.4
+2023-11-28 12:48:24.561 [info] Extracting extension completed. petersteiner.pip-installer
+2023-11-28 12:48:24.612 [info] Extension installed successfully: petersteiner.pip-installer
+2023-11-28 12:48:24.613 [info] Extension 'petersteiner.pip-installer' v0.0.4 was successfully installed.
+2023-11-28 12:48:25.540 [info] Extracted extension to file:///root/.vscode-server/extensions/ms-toolsai.jupyter-2023.10.1100000000-linux-x64: ms-toolsai.jupyter
+2023-11-28 12:48:25.565 [info] Renamed to /root/.vscode-server/extensions/ms-toolsai.jupyter-2023.10.1100000000-linux-x64
+2023-11-28 12:48:25.591 [info] Extracting extension completed. ms-toolsai.jupyter
+2023-11-28 12:48:25.629 [info] Extension installed successfully: ms-toolsai.jupyter
+2023-11-28 12:48:25.632 [info] Extension 'ms-toolsai.jupyter' v2023.10.1100000000 was successfully installed.
+2023-11-28 12:49:13.538 [info] [127.0.0.1][fe28a4db][ExtensionHostConnection] <251> Starting WebSocket: RAW/api/kernels/aec9f8ce-6514-40a2-85f1-dd994852265e
+
+2023-11-28 12:49:24.800 [info] Extracted extension to file:///root/.vscode-server/extensions/ms-python.python-2023.20.0: ms-python.python
+2023-11-28 12:49:24.819 [info] Rename failed because of EACCES: permission denied, rename '/root/.vscode-server/extensions/.88030945-ce82-429c-b9c8-e9c39b13010b' -> '/root/.vscode-server/extensions/ms-python.python-2023.20.0'. Deleted from extracted location {"$mid":1,"fsPath":"/root/.vscode-server/extensions/.88030945-ce82-429c-b9c8-e9c39b13010b","path":"/root/.vscode-server/extensions/.88030945-ce82-429c-b9c8-e9c39b13010b","scheme":"file"}
+2023-11-28 12:49:29.009 [error] Error while installing the extension: ms-python.python
+2023-11-28 12:49:29.010 [error] Failed to install extension. ms-python.python
+2023-11-28 12:49:29.010 [error] EACCES: EACCES: permission denied, rename '/root/.vscode-server/extensions/.88030945-ce82-429c-b9c8-e9c39b13010b' -> '/root/.vscode-server/extensions/ms-python.python-2023.20.0'
+    at J.C (/root/.vscode-server/bin/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/out/vs/server/node/server.main.js:169:14862)
+    at async J.extractUserExtension (/root/.vscode-server/bin/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/out/vs/server/node/server.main.js:169:12375)
+    at async oe.u (/root/.vscode-server/bin/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/out/vs/server/node/server.main.js:169:18382)
+    at async oe.x (/root/.vscode-server/bin/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/out/vs/server/node/server.main.js:169:20014)
+    at async oe.h (/root/.vscode-server/bin/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/out/vs/server/node/server.main.js:169:17949)
+2023-11-28 12:49:29.011 [error] EACCES: permission denied, rename '/root/.vscode-server/extensions/.88030945-ce82-429c-b9c8-e9c39b13010b' -> '/root/.vscode-server/extensions/ms-python.python-2023.20.0'
+2023-11-28 12:49:30.012 [error] EACCES: EACCES: permission denied, rename '/root/.vscode-server/extensions/.88030945-ce82-429c-b9c8-e9c39b13010b' -> '/root/.vscode-server/extensions/ms-python.python-2023.20.0'
+    at J.C (/root/.vscode-server/bin/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/out/vs/server/node/server.main.js:169:14862)
+    at async J.extractUserExtension (/root/.vscode-server/bin/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/out/vs/server/node/server.main.js:169:12375)
+    at async oe.u (/root/.vscode-server/bin/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/out/vs/server/node/server.main.js:169:18382)
+    at async oe.x (/root/.vscode-server/bin/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/out/vs/server/node/server.main.js:169:20014)
+    at async oe.h (/root/.vscode-server/bin/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/out/vs/server/node/server.main.js:169:17949)
+2023-11-28 12:49:57.055 [info] Extracted extension to file:///root/.vscode-server/extensions/ms-python.vscode-pylance-2023.11.10: ms-python.vscode-pylance
+2023-11-28 12:49:57.074 [info] Renamed to /root/.vscode-server/extensions/ms-python.vscode-pylance-2023.11.10
+2023-11-28 12:49:57.085 [info] Extracting extension completed. ms-python.vscode-pylance
+2023-11-28 12:49:57.106 [info] Extension installed successfully: ms-python.vscode-pylance
+2023-11-28 12:49:57.107 [info] Finished waiting for already requested installing extension ms-python.vscode-pylance ms-python.python
+2023-11-28 12:49:57.108 [info] Extension 'ms-python.vscode-pylance' v2023.11.10 was successfully installed.
+2023-11-28 12:49:57.109 [error] Error: Failed Installing Extensions: ms-python.python
+    at d.installExtensions (/root/.vscode-server/bin/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/out/vs/server/node/server.main.js:131:109)
+2023-11-28 16:20:13.275 [warning] No ptyHost heartbeat after 6 seconds
+2023-11-28 16:36:43.052 [info] [127.0.0.1][fe28a4db][ExtensionHostConnection] The client has reconnected.
+2023-11-28 16:36:43.260 [info] [127.0.0.1][c59a0bee][ManagementConnection] The client has reconnected.
+2023-11-28 16:44:21.501 [info] [127.0.0.1][c59a0bee][ManagementConnection] The client has reconnected.
+2023-11-28 16:44:21.883 [info] [127.0.0.1][fe28a4db][ExtensionHostConnection] The client has reconnected.
+2023-11-28 16:49:04.455 [info] [127.0.0.1][c59a0bee][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2023-11-28 16:49:04.717 [info] [127.0.0.1][fe28a4db][ExtensionHostConnection] <251> Extension Host Process exited with code: 0, signal: null.
